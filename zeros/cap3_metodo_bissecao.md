@@ -16,14 +16,14 @@ O método da bisseção é uma técnica numérica simples, robusta e eficiente p
 
 ## Hipóteses
 
-- f é contínua em \([a, b]\)
-- \(f(a)\cdot f(b) < 0\)
+- f é contínua em $[a, b]$
+- $f(a)\cdot f(b) < 0$
 
 ---
 
 ## Entrada (Input)
 
-- Extremos \(a\) e \(b\)
+- Extremos $a$ e $b$
 - Tolerância `tol`
 - Número máximo de iterações `maxit`
 
@@ -36,15 +36,15 @@ O método da bisseção é uma técnica numérica simples, robusta e eficiente p
 
 # Algoritmo
 
-1. Inicialize \(x = a\), \(y = b\)
+1. Inicialize $x = a$, $y = b$
 2. Defina `iter = 0`
-3. Enquanto \(y - x > tol\) e `iter < maxit`:
-   - \(m = \frac{x + y}{2}\)
-   - Se \(f(x)\cdot f(m) < 0\), então \(y = m\)
-   - Se \(f(x)\cdot f(m) > 0\), então \(x = m\)
-   - Se \(f(m) = 0\), pare: \(m\) é raiz exata
+3. Enquanto $y - x > tol$ e `iter < maxit`:
+   - $m = \frac{x + y}{2}$
+   - Se $f(x)\cdot f(m) < 0$, então $y = m$
+   - Se $f(x)\cdot f(m) > 0$, então $x = m$
+   - Se $f(m) = 0$, pare: $m$ é raiz exata
    - `iter = iter + 1`
-4. Retorne \(m\)
+4. Retorne $m$
 
 ---
 
