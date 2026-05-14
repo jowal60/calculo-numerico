@@ -154,6 +154,8 @@ Tabela:
 
 **Raiz aproximada:** **1.3642**
 
+![$f(x) = x^3 +4x^2-10$ ](../assets/images/fig_bissecao2.JPG)
+
 ---
 
 # Exemplo 3  
