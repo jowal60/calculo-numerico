@@ -74,7 +74,7 @@ Para determinar uma raiz da função
    
    Como $f$ é contínua e $f(1) \cdot f(2)<0$, há uma raiz no intervalo  $[1, \; 2]$;
 		
-3. **Ponto Médio**: $c=\dfrac{1+2}{2}=1.5$, e $f(1.5)=1.5^3-1.5-2=-0.125$;  
+3. **Ponto Médio**: $pm=\dfrac{1+2}{2}=1.5$, e $f(1.5)=1.5^3-1.5-2=-0.125$;  
 		
 4. **Novo intervalo**: 	Como $f(1) \cdot f(1.5)>0$, a raiz está em 	$[1.5, \; 2]$;      
 		
@@ -82,7 +82,7 @@ Para determinar uma raiz da função
 
 ### Tabela de iterações
 
-| k | x | y | m | (y-x)/2 |
+| k | a | b | pm | (b-a)/2 |
 |---|---|---|---|---------|
 | 1 | 1.000000 | 2.000000 | 1.500000 | 0.500000 |
 | 2 | 1.500000 | 2.000000 | 1.750000 | 0.250000 |
