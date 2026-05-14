@@ -70,9 +70,9 @@ O método da bisseção é uma técnica numérica simples, robusta e eficiente p
 
 Primeiro ponto médio:
 
-\[
+$$
 m = 1.5,\quad f(1.5) = -0.125
-\]
+$$
 
 Novo intervalo: $[1.5, 2]$
 
