@@ -95,6 +95,9 @@ Continue até atingir a tolerância.
 
 **Raiz aproximada:** **1.5205**
 
+![$f(x) = x^3 - x - 2$ ](../assets/images/grafico_bissecao.png)
+
+
 ---
 
 # Exemplo 2  
