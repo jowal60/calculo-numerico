@@ -62,16 +62,13 @@ O método da bisseção é uma técnica numérica simples, robusta e eficiente p
 ---
 
 # Exemplo 1  
-**Encontrar a raiz de** $f(x) = x^3 - x - 2$ **em** \([1, 2]\)
+**Encontrar a raiz de** $f(x) = x^3 - x - 2$ **em** $[1, 2]$
 
-- \(f(1) = -2\)
-- \(f(2) = 4\)
-- Há raiz em \([1, 2]\)
+- $f(1) = -2$
+- $f(2) = 4$
+- Há raiz em $[1, 2]$
 
 Primeiro ponto médio:
-
-
-
 \[
 m = 1.5,\quad f(1.5) = -0.125
 \]
