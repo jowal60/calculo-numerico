@@ -121,7 +121,7 @@ Iterações: 20
 ---
 
 # Exemplo 2  
-**Aproximar pelo método da Bisseção a raiz de** $f(x) = x^3 + 4x^2 - 10$ **em** \([1, 2]\), tolerância $10^{-3}$
+**Aproximar pelo método da Bisseção a raiz de** $f(x) = x^3 + 4x^2 - 10$ **em** \([1, 2]\) com o criterio de parada $|b_k-a_k| < 10^{-6}$.
 
 ## Solução
 
