@@ -72,10 +72,7 @@ Primeiro ponto médio:
 \[
 m = 1.5,\quad f(1.5) = -0.125
 \]
-
-
-
-Novo intervalo: \([1.5, 2]\)
+Novo intervalo: $[1.5, 2]$
 
 Continue até atingir a tolerância.
 
@@ -121,7 +118,7 @@ Tabela:
 ---
 
 # Exemplo 3  
-**\(f(x) = e^x - x - 2\)** em \([-2, 0]\)
+**Aproximar pelo método da Bisseção a raiz de** $f(x) = e^x - x - 2$ **em** $[-2, 0]$
 
 **Raiz aproximada:** **–1.8408**
 
