@@ -125,24 +125,27 @@ Iterações: 20
 
 ## Solução
 
-Para determinar uma raiz da função 
-	$f(x)=x^3-x-2$ no intervalo 
-	$[1, \; 2]$ pelo método da bisseção, segue-se os seguintes passos:
-	\begin{enumerate}
-		\item
-		\textbf{Intervalo Inicial}: 
-		$f(1)=-2$ e $f(2)=4$. \\
-		Como $f$ é contínua e $f(1) \cdot f(2)<0$, há uma raiz no intervalo 
+Pelo método da bisseção, segue-se os seguintes passos:
+\vskip-0.1cm
+\begin{enumerate}
+	\item
+1. \textbf{Intervalo Inicial}: 
+		$f(1)=-5$ e $f(2)=14$. \\
+		Como $f$ é contínua e 
+		$f(1) \cdot f(2)<0$, há uma raiz no intervalo 
 		$[1, \; 2]$;
-		\item
-		\textbf{Ponto Médio}: 
-		$c=\frac{1+2}{2}=1.5$, e $f(1.5)=1.5^3-1.5-2=-0.125$ ;
-		\item
-		\textbf{Novo intervalo}: 
-		Como $f(1) \cdot f(1.5)>0$, a raiz está em
-		$[1.5, \; 2]$ ;
-		\item
-		\textbf{Repetição}: 
+	\vskip0.1cm
+	\item
+2. \textbf{Ponto Médio}: 
+		$c=\frac{1+2}{2}=1.5$, e
+		$f(1.5)=1.5^3+4 \cdot 1.5^2-10=2.375$;
+	\item
+	\justifying
+3. \textbf{Novo intervalo}: 
+		Como $f(1) \cdot f(1.5)<0$, a raiz está em
+		$[1, \; 1.5]$;
+	\item
+4. \textbf{Repetição}: 
 		Continue repetindo os passos, recalculando o ponto médio e ajustando o intervalo até atingir a precisão desejada.
 	\end{enumerate}
 
