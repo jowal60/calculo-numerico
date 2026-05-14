@@ -62,7 +62,7 @@ O método da bisseção é uma técnica numérica simples, robusta e eficiente p
 ---
 
 # Exemplo 1  
-**Encontrar a raiz de** $f(x) = x^3 - x - 2$ **em** $[1, 2]$
+**Aproximar pelo método da Bisseção a raiz de** $f(x) = x^3 - x - 2$ **em** $[1, 2]$
 
 - $f(1) = -2$
 - $f(2) = 4$
@@ -99,7 +99,7 @@ Continue até atingir a tolerância.
 ---
 
 # Exemplo 2  
-**\(f(x) = x^3 + 4x^2 - 10\)** em \([1, 2]\), tolerância \(10^{-3}\)
+**Aproximar pelo método da Bisseção a raiz de** $f(x) = x^3 + 4x^2 - 10$ **em** \([1, 2]\), tolerância $10^{-3}$
 
 Tabela:
 
