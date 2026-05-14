@@ -1,0 +1,22 @@
+title: "Cálculo Numérico"
+description: "Notas de aula — Dr. José Walter Cárdenas Sotil"
+theme: just-the-docs
+
+url: "https://SEU_USUARIO.github.io/calculo-numerico"
+
+just_the_docs:
+  collections:
+    aritmetica:
+      name: "Aritmética"
+    zeros:
+      name: "Zeros de Funções"
+    sistemas-lineares:
+      name: "Sistemas Lineares"
+
+collections:
+  aritmetica:
+    output: true
+  zeros:
+    output: true
+  sistemas-lineares:
+    output: true
