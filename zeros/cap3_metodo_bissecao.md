@@ -71,6 +71,7 @@ Para determinar uma raiz da função
 	$[1, \; 2]$ pelo método da bisseção, segue-se os seguintes passos: 
 	
 1. **Intervalo Inicial**: $f(1)=-2$ e $f(2)=4$.
+   
    Como $f$ é contínua e $f(1) \cdot f(2)<0$, há uma raiz no intervalo  $[1, \; 2]$;
 		
 3. **Ponto Médio**: $c=\dfrac{1+2}{2}=1.5$, e $f(1.5)=1.5^3-1.5-2=-0.125$;  
