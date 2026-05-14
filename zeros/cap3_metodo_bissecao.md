@@ -163,6 +163,7 @@ Tabela:
 | 20 | 1.36522865 | 1.36523056 | 1.36522961 | 0.00000095 | -6.71741291e-06 |
 
 Raiz aproximada: 1.365229
+
 Iterações: 20
 
 ![$f(x) = x^3 +4x^2-10$ ](../assets/images/fig_bissecao2.JPG)
