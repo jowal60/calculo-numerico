@@ -61,6 +61,12 @@ O método da bisseção é uma técnica numérica simples, robusta e eficiente p
 
 ---
 
+<a target="_blank" href="https://colab.research.google.com/github/jowal60/calculo-numerico/blob/main/zeros/cap3_metodo_bissecao.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Executar no Colab"/>
+</a>
+
+---
+
 # Exemplo 1  
 **Aproximar pelo método da Bisseção a raiz de** $f(x) = x^3 - x - 2$ **em** $[1, 2]$ com o criterio de parada $|b_k-a_k| < 10^{-6}$.
 
