@@ -5,6 +5,7 @@ theme: just-the-docs
 # Configuração correta para Project Site
 url: "https://jowal60.github.io"
 baseurl: "/calculo-numerico"
+relative_links: true
 
 # Coleções (sem números no nome)
 collections:
