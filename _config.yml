@@ -4,29 +4,24 @@ theme: just-the-docs
 
 url: "https://jowal60.github.io/calculo-numerico"
 
-# ORDEM DO MENU LATERAL
-nav:
-  - Aritmética: aritmetica
-  - Zeros de Funções: zeros
-  - Sistemas Lineares: sistemas-lineares
-
-# CONFIGURAÇÃO DAS COLEÇÕES
+# CONFIGURAÇÃO DAS COLEÇÕES (com os novos nomes das pastas)
 collections:
-  aritmetica:
+  01-aritmetica:
     output: true
     permalink: /aritmetica/:path/
-  zeros:
+  02-zeros:
     output: true
     permalink: /zeros/:path/
-  sistemas-lineares:
+  03-sistemas-lineares:
     output: true
     permalink: /sistemas-lineares/:path/
 
+# Nomes exibidos no menu lateral, na ordem desejada
 just_the_docs:
   collections:
-    aritmetica:
+    01-aritmetica:
       name: "Aritmética"
-    zeros:
+    02-zeros:
       name: "Zeros de Funções"
-    sistemas-lineares:
+    03-sistemas-lineares:
       name: "Sistemas Lineares"
