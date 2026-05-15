@@ -8,10 +8,20 @@ nav_order: 0
 
 Este índice lista automaticamente todas as seções e capítulos.
 
-{% for collection in site.collections %}
-## {{ collection.label | replace: '01-', '' | replace: '02-', '' | replace: '03-', '' | capitalize }}
+## Aritmética
 
-{% for page in collection.docs %}
+{% for page in site["01-aritmetica"].docs %}
 - [{{ page.title }}]({{ page.url | relative_url }})
 {% endfor %}
+
+## Zeros de Funções
+
+{% for page in site["02-zeros"].docs %}
+- [{{ page.title }}]({{ page.url | relative_url }})
+{% endfor %}
+
+## Sistemas Lineares
+
+{% for page in site["03-sistemas-lineares"].docs %}
+- [{{ page.title }}]({{ page.url | relative_url }})
 {% endfor %}
