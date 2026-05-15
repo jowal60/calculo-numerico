@@ -2,8 +2,11 @@ title: "Cálculo Numérico"
 description: "Notas de aula — Dr. José Walter Cárdenas Sotil"
 theme: just-the-docs
 
-url: "https://jowal60.github.io/calculo-numerico"
+# Configuração correta para Project Site
+url: "https://jowal60.github.io"
+baseurl: "/calculo-numerico"
 
+# Coleções (sem números no nome)
 collections:
   aritmetica:
     output: true
@@ -15,6 +18,7 @@ collections:
     output: true
     permalink: /sistemas-lineares/:path/
 
+# Configuração do Just-the-Docs
 just_the_docs:
   collections:
     aritmetica:
