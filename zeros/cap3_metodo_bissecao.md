@@ -224,7 +224,7 @@ Pelo método da bisseção, segue-se os seguintes passos:
 ---
 
 # Exemplo 4  
-Aplicando o método da bisseção, determinar a raiz da função $f(x) = cos(x)-x$ no intervalo $[0,  \pi/2]$
+Aplicando o método da bisseção, determinar a raiz da função $f(x) = cos(x)-x$ no intervalo $[0, \pi/2]$
 com uma tolerância de $10^{-6}$.
 
 ## Solução
