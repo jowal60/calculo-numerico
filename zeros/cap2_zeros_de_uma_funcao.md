@@ -20,3 +20,5 @@ Ao calcular o zero de uma função, deve-se considerar:
 
 ### Exemplo
 A função $f(x)=x^2-4$ admite solução e tem duas raízes $x=2$ e $x=-2$ (a solução não é única)
+
+![$f(x) = x^3 - x - 2$ ](../assets/images/zeros1.png)
