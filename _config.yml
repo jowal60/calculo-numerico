@@ -5,21 +5,21 @@ theme: just-the-docs
 url: "https://jowal60.github.io/calculo-numerico"
 
 collections:
-  01-aritmetica:
+  aritmetica:
     output: true
     permalink: /aritmetica/:path/
-  02-zeros:
+  zeros:
     output: true
     permalink: /zeros/:path/
-  03-sistemas-lineares:
+  sistemas-lineares:
     output: true
     permalink: /sistemas-lineares/:path/
 
 just_the_docs:
   collections:
-    01-aritmetica:
+    aritmetica:
       name: "Aritmética"
-    02-zeros:
+    zeros:
       name: "Zeros de Funções"
-    03-sistemas-lineares:
+    sistemas-lineares:
       name: "Sistemas Lineares"
