@@ -1,6 +1,7 @@
 ---
-title: Zeros de Funções
+title: "Zeros de Funções"
 layout: default
-nav_order: 2
-parent: Zeros de Funções
+nav_order: 1
+has_children: true
+parent: null
 ---
