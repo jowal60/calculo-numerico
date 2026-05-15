@@ -1,8 +1,9 @@
 ---
-title: "Aritmética"
+title: Aritmética
 layout: default
 nav_order: 1
-has_children: true
 ---
 
-# Parte I — Aritmética
+# Aritmética
+
+Nesta seção estudamos operações fundamentais e conceitos básicos necessários para os capítulos seguintes.
