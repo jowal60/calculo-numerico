@@ -1,8 +1,9 @@
 ---
-title: "Sistemas Lineares"
+title: Sistemas Lineares
 layout: default
-nav_order: 1
-has_children: true
+nav_order: 3
 ---
 
-# Parte III — Métodos Numéricos para resolver sistema Lineares
+# Sistemas Lineares
+
+Nesta seção estudamos métodos numéricos para resolver sistemas lineares.
