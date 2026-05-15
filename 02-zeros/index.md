@@ -6,4 +6,8 @@ nav_order: 2
 
 # Zeros de Funções
 
-Selecione um dos métodos no menu lateral.
+## 📄 Métodos
+
+{% for page in site["02-zeros"].docs %}
+- [{{ page.title }}]({{ page.url | relative_url }})
+{% endfor %}
