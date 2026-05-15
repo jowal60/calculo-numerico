@@ -36,16 +36,13 @@ kramdown:
   math_engine: mathjax
   mathjax:
     path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-# Permitir $$...$$ e $...$ como delimitadores (compatível com GitHub)
-mathjax:
-  tex:
-    inlineMath:
-      - ["$", "$"]
-      - ["\\(", "\\)"]
-    displayMath:
-      - ["$$", "$$"]
-      - ["\
+    tex:
+      inlineMath:
+        - ["$", "$"]
+        - ["\\(", "\\)"]
+      displayMath:
+        - ["$$", "$$"]
+        - ["\
 
 \[", "\\]
 
