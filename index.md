@@ -6,10 +6,12 @@ nav_order: 0
 
 # 📘 Índice Geral do Livro
 
-Este índice lista automaticamente todas as seções e capítulos do livro.
+Este índice lista automaticamente todas as seções e capítulos.
 
-## 📚 Seções
+{% for collection in site.collections %}
+## {{ collection.label | replace: '01-', '' | replace: '02-', '' | replace: '03-', '' | capitalize }}
 
-- [Aritmética](/01-aritmetica/)
-- [Zeros de Funções](/02-zeros/)
-- [Sistemas Lineares](/03-sistemas-lineares/)
+{% for page in collection.docs %}
+- [{{ page.title }}]({{ page.url | relative_url }})
+{% endfor %}
+{% endfor %}
