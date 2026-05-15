@@ -20,8 +20,8 @@ O método da bisseção é uma técnica numérica simples, robusta e eficiente p
 
 Para aplicar o método, é necessário que:
 
-- f é contínua em $[a, b]$
-- $f(a)\cdot f(b) < 0$
+- f é contínua em \([a, b]\)
+- \(f(a)\cdot f(b) < 0\)
 
 ---
 
