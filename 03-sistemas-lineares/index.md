@@ -6,4 +6,8 @@ nav_order: 3
 
 # Sistemas Lineares
 
-Nesta seção estudamos métodos numéricos para resolver sistemas lineares.
+## 📄 Capítulos
+
+{% for page in site["03-sistemas-lineares"].docs %}
+- [{{ page.title }}]({{ page.url | relative_url }})
+{% endfor %}
