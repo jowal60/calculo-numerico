@@ -137,7 +137,7 @@ Pelo método da bisseção, segue-se os seguintes passos:
 
 4. **Repetição**: Continue repetindo os passos, recalculando o ponto médio e ajustando o intervalo até atingir a precisão desejada.
 
-Tabela:
+### Tabela de iterações
 
 | k | a | b | pm | (b - a)/2 | f(pm) |
 |---|---|---|----|--------|--------|
@@ -189,7 +189,7 @@ Pelo método da bisseção, segue-se os seguintes passos:
    
 4. **Repetição**: Continue repetindo os passos, recalculando o ponto médio e ajustando o intervalo até atingir a precisão desejada.
 
-Tabela:
+### Tabela de iterações
 
 | k | a | b | pm | (b - a)/2 | f(pm) |
 |---|---|---|----|--------|--------|
@@ -224,7 +224,27 @@ Tabela:
 ---
 
 # Exemplo 4  
-**\(f(x) = \cos(x) - x\)** em \([0, \pi/2]\)
+Aplicando o método da bisseção, determinar a raiz da função $f(x) = cos(x)-x$ no intervalo $[0,  \pi/2]$
+com uma tolerância de $10^{-6}$.
+
+**Solução**:
+
+Pelo método da bisseção, segue-se os seguintes passos:
+
+1. **Intervalo Inicial**: $f(0)=1$ e $f(\pi/2)=-1.57079$. 
+	
+	Como $f$ é contínua e $f(0) \cdot f(\pi/2)<0$, há uma raiz no intervalo $[0,  \pi/2]$;
+	
+2. **Ponto Médio**: $pm=\dfrac{0+\pi/2}{2}=\frac{\pi}{4}$, e $f(\pi/4)=cos(\pi/4)-\frac{\pi}{4}=-0.07829$;
+	
+3. **Novo intervalo**: Como $f(0) \cdot f(\pi/4)<0$, a raiz está em $[0,  \pi/4]$;
+	
+4. **Repetição**: Continue repetindo os passos, recalculando o ponto médio e ajustando o intervalo até atingir a precisão desejada.
+
+### Tabela de iterações
+
+
+
 
 **Raiz aproximada:** **0.7386**
 
