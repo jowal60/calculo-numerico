@@ -8,13 +8,13 @@ url: "https://jowal60.github.io/calculo-numerico"
 collections:
   01-aritmetica:
     output: true
-    permalink: /aritmetica/:path/
+    permalink: /01-aritmetica/:path/
   02-zeros:
     output: true
-    permalink: /zeros/:path/
+    permalink: /02-zeros/:path/
   03-sistemas-lineares:
     output: true
-    permalink: /sistemas-lineares/:path/
+    permalink: /03-sistemas-lineares/:path/
 
 # Nomes exibidos no menu lateral, na ordem desejada
 just_the_docs:
