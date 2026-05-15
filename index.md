@@ -11,5 +11,5 @@ Bem-vindo ao livro digital de Cálculo Numérico — Dr. José Walter Cárdenas 
 ## Seções
 
 - [Aritmética](/aritmetica/)
-- [Zeros de Funções](/zeros/)
+- [Zeros de Funções](/01-zeros/)
 - [Sistemas Lineares](/sistemas-lineares/)
