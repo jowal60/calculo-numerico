@@ -328,40 +328,54 @@ Resolver a equação $e^x-2=cos(x-2)$.
 ---
 
 # Convergência do Método da Bisseção
-
-O método gera intervalos encaixados:
-
-
-
+Sejam $[a_0, \; b_0]$ um intervalo tal que
 \[
-[a_{k+1}, b_{k+1}] \subset [a_k, b_k]
+f \in C^0[a,b] \quad \text{e} \quad f(a_0) \cdot f(b_0) <0
 \]
-
-
-
-E:
-
-- \(a_k\) é crescente  
-- \(b_k\) é decrescente  
-- \(b_k - a_k = \frac{b_0 - a_0}{2^k}\)
-
-Logo:
-
-
-
+O método gera uma sequência de intervalos encaixados:
 \[
-\lim_{k\to\infty} a_k = \lim_{k\to\infty} b_k = r
+[a_{k+1}, \; b_{k+1}] \subset [a_k, \; b_k] \subset \cdots \subset [a_1, \; b_1] \subset [a_0, \; b_0].
 \]
+Além disso:
+\begin{itemize}
+	\item[\textbullet]
+	$\{a_k\}$ é crescente e limitada superiormente por 
+	$b_0$, e portanto é convergente:
+	$$
+	a_0 \leq a_1 \leq \cdots a_k \leq \cdots \leq b_0;
+	$$  
+	\item[\textbullet]
+	$\{b_k\}$ é decrescente e limitada inferiormente por $a_0$, 
+	e portanto é convergente:
+	$$
+	b_0 \geq b_1 \geq \cdots b_k \geq \cdots \geq a_0;
+	$$
+	\item[\textbullet]
+	O comprimento do intervalo satisfaz:
+	\begin{align*}
+		b_1-a_1 &= \frac{b-a}{2} \\
+		b_2-a_2 &= \frac{b_1-a_1}{2}=\frac{b-a}{2^2} \\
+		\vdots &= \vdots \\
+		b_k-a_k&= \frac{b_{k-1}-a_{k-1}}{2}=\frac{b_0-a_0}{2^k} \longrightarrow_{n \to \infty} 0. 
+	\end{align*}
+	Logo, 	
+	\[\lim\limits_{k \to \infty} (a_k - b_k) =0
+	\Rightarrow \lim\limits_{k \to \infty} a_k = \lim\limits_{k \to \infty} b_k=r
+	\]
+	e, pela continuidade de $f$,
+	\begin{itemize}
+		\item[\textbullet]
+		Tem-se:
+		\begin{align*}
+			0  \geq \lim\limits_{k \to \infty} f(a_k) \cdot f(b_k) &
+			= f(\lim\limits_{k \to \infty} a_k) \cdot f(\lim\limits_{k \to \infty} b_k)
+			= f(r)\cdot f(r) = [f(r)]^2 \geq 0 
+		\end{align*}
+		logo, $f(r)=0$.
+	\end{itemize}
+	Portanto, o método converge para uma raiz de $f$.
+\end{itemize}
 
-
-
-E:
-
-
-
-\[
-f(r) = 0
-\]
 
 
 
