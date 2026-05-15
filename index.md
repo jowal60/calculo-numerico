@@ -1,12 +1,15 @@
 ---
-title: "Cálculo Numérico"
+title: Índice Geral
 layout: default
-nav_order: 1
+nav_order: 0
 ---
 
-# Cálculo Numérico
-### Dr. José Walter Cárdenas Sotil
+# 📘 Índice Geral do Livro
 
-Bem-vindo ao livro digital da disciplina de **Cálculo Numérico**.
+Este índice lista automaticamente todas as seções e capítulos do livro.
 
-Use o menu lateral para navegar pelos capítulos.
+## 📚 Seções
+
+- [Aritmética](/01-aritmetica/)
+- [Zeros de Funções](/02-zeros/)
+- [Sistemas Lineares](/03-sistemas-lineares/)
