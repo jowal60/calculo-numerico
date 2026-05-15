@@ -342,96 +342,116 @@ $$
 
 Além disso:
 
-\begin{itemize}
-	\item[\textbullet]
-	$\{a_k\}$ é crescente e limitada superiormente por 
-	$b_0$, e portanto é convergente:
-	$$
-	a_0 \leq a_1 \leq \cdots a_k \leq \cdots \leq b_0;
-	$$  
-	\item[\textbullet]
-	$\{b_k\}$ é decrescente e limitada inferiormente por $a_0$, 
-	e portanto é convergente:
-	$$
-	b_0 \geq b_1 \geq \cdots b_k \geq \cdots \geq a_0;
-	$$
-	\item[\textbullet]
-	O comprimento do intervalo satisfaz:
-	\begin{align*}
-		b_1-a_1 &= \frac{b-a}{2} \\
-		b_2-a_2 &= \frac{b_1-a_1}{2}=\frac{b-a}{2^2} \\
-		\vdots &= \vdots \\
-		b_k-a_k&= \frac{b_{k-1}-a_{k-1}}{2}=\frac{b_0-a_0}{2^k} \longrightarrow_{n \to \infty} 0. 
-	\end{align*}
-	Logo, 	
-	\[\lim\limits_{k \to \infty} (a_k - b_k) =0
+- $\{a_k\}$ é crescente e limitada superiormente por $b_0$, e portanto é convergente:
+
+$$
+a_0 \leq a_1 \leq \cdots a_k \leq \cdots \leq b_0;
+$$  
+	
+- $\{b_k\}$ é decrescente e limitada inferiormente por $a_0$, e portanto é convergente:
+ 
+$$
+b_0 \geq b_1 \geq \cdots b_k \geq \cdots \geq a_0;
+$$
+	
+- O comprimento do intervalo satisfaz:
+
+$$
+\begin{aligned}
+b_1-a_1 &= \frac{b-a}{2} \\
+b_2-a_2 &= \frac{b_1-a_1}{2}=\frac{b-a}{2^2} \\
+\vdots &= \vdots \\
+b_k-a_k&= \frac{b_{k-1}-a_{k-1}}{2}=\frac{b_0-a_0}{2^k} \longrightarrow_{n \to \infty} 0. 
+\end{aligned}
+$$
+
+Logo,
+
+$$
+\lim\limits_{k \to \infty} (a_k - b_k) =0
 	\Rightarrow \lim\limits_{k \to \infty} a_k = \lim\limits_{k \to \infty} b_k=r
-	\]
-	e, pela continuidade de $f$,
-	\begin{itemize}
-		\item[\textbullet]
-		Tem-se:
-		\begin{align*}
-			0  \geq \lim\limits_{k \to \infty} f(a_k) \cdot f(b_k) &
-			= f(\lim\limits_{k \to \infty} a_k) \cdot f(\lim\limits_{k \to \infty} b_k)
-			= f(r)\cdot f(r) = [f(r)]^2 \geq 0 
-		\end{align*}
-		logo, $f(r)=0$.
-	\end{itemize}
-	Portanto, o método converge para uma raiz de $f$.
-\end{itemize}
+$$
 
+e, pela continuidade de $f$,
 
+Tem-se:
 
+$$
+0  \geq \lim\limits_{k \to \infty} f(a_k) \cdot f(b_k) 
+= f(\lim\limits_{k \to \infty} a_k) \cdot f(\lim\limits_{k \to \infty} b_k)
+= f(r)\cdot f(r) = [f(r)]^2 \geq 0 
+$$
+
+logo, $f(r)=0$.
+
+Portanto, o método converge para uma raiz de $f$.
 
 ---
 
 # Ordem de Convergência
 
-Erro:
+Seja $e_k=|r-c_k|$  o erro nas k-ésima iteração. Então,
 
+$$
+e_k \leq \dfrac{b_0-a_0}{2^k}.
+$$
 
+Logo, 
 
-\[
-e_k = |r - c_k|
-\]
+$$
+e_{k+1} \leq \dfrac{1}{2} \cdot e_k
+$$
 
+o que implica que:
 
+- O método possui **convergência linear**;
+	
+- A constante assintótica é $\dfrac{1}{2}$.
 
-E:
-
-
-
-\[
-e_{k+1} \approx \frac{1}{2} e_k
-\]
-
-
-
-→ Convergência **linear**.
+Portanto, tem-se convergência **linear** no método da bisseção com **taxa de convergência** igual a $1/2$.
 
 ---
 
 # Número de Iterações
 
-Para erro \(e\):
+Para garantir erro $e_k < E$, basta impor:
 
+$$
+\dfrac{(b_0-a_0)}{2^k} < E
+$$
 
+Daí, o número de iterações $k$ é:
 
-\[
-k \ge \log_2\left(\frac{b_0 - a_0}{e}\right)
-\]
+$$
+k \geq \log_2 \left(\dfrac{b_0-a_0}{E} \right)
+$$
 
+ou equivalentemente,
 
+$$
+k=  \left\lceil \dfrac{\log \left(\dfrac{b_0-a_0}{E}\right)}{\log(2)} \right\rceil
+$$
 
-Exemplo:
+---
 
+# Exemplo 6
+Quantas iterações são necessárias para obter o zero da função $f(x) = x^3+4x^2-10$ no intervalo $[1,  2]$, 	com erro de $10^{-6}$?
 
+## Solução
 
-\[
-k = \log_2\left(\frac{1}{10^{-3}}\right) \approx 9.96 \Rightarrow 10\ \text{iterações}
-\]
+$$
+\begin{aligned}
+		a &= 1, \quad b = 2, \quad  e= 10^{-6} \\
+		k & = \left\lceil  log\left( \dfrac{b-a}{e}  \right) \cdot \dfrac{1}{log(2)} \right\rceil \\
+		k & = \left\lceil  log\left( \dfrac{2-1}{10^{-6}}  \right) \cdot \dfrac{1}{log(2)} \right\rceil  
+		= \left\lceil \dfrac{6}{log(2)} \right\rceil 
+		= \left\lceil 19,9315 \right\rceil \\
+		& \Downarrow\\
+		k & = 20 \text{ iterações.}  
+\end{aligned}
+$$
 
+O que coincide com os resultados dos exemplos já desenvolvidos.
 
 
 ---
