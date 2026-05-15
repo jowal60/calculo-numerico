@@ -173,7 +173,7 @@ Pelo método da bisseção, segue-se os seguintes passos:
 # Exemplo 3  
 **Aproximar pelo método da Bisseção a raiz de** $f(x) = e^x - x - 2$ **em** $[-2,  0]$ com o criterio de parada $|b_k-a_k| < 10^{-6}$.
 
-** Solução
+## Solução
 
 Pelo método da bisseção, segue-se os seguintes passos:
 
@@ -227,7 +227,7 @@ Pelo método da bisseção, segue-se os seguintes passos:
 Aplicando o método da bisseção, determinar a raiz da função $f(x) = cos(x)-x$ no intervalo $[0,  \pi/2]$
 com uma tolerância de $10^{-6}$.
 
-**Solução**:
+## Solução
 
 Pelo método da bisseção, segue-se os seguintes passos:
 
