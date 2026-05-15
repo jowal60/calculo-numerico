@@ -6,4 +6,8 @@ nav_order: 1
 
 # Aritmética
 
-Nesta seção estudamos operações fundamentais e conceitos básicos necessários para os capítulos seguintes.
+## 📄 Capítulos
+
+{% for page in site["01-aritmetica"].docs %}
+- [{{ page.title }}]({{ page.url | relative_url }})
+{% endfor %}
