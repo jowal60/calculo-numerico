@@ -1,8 +1,6 @@
 ---
-title: "Zeros de uma função"
+title: Método da Bisseção
 layout: default
+parent: Zeros de Funções
 nav_order: 1
-has_children: true
 ---
-
-# Parte II — Métodos Numéricos para o cálculo de Zeros de uma função
