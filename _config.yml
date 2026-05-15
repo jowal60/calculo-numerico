@@ -2,7 +2,25 @@ title: "Cálculo Numérico"
 description: "Notas de aula — Dr. José Walter Cárdenas Sotil"
 theme: just-the-docs
 
-url: "https://SEU_USUARIO.github.io/calculo-numerico"
+url: "https://jowal60.github.io/calculo-numerico"
+
+# ORDEM DO MENU LATERAL
+nav:
+  - Aritmética: aritmetica
+  - Zeros de Funções: zeros
+  - Sistemas Lineares: sistemas-lineares
+
+# CONFIGURAÇÃO DAS COLEÇÕES
+collections:
+  aritmetica:
+    output: true
+    permalink: /aritmetica/:path/
+  zeros:
+    output: true
+    permalink: /zeros/:path/
+  sistemas-lineares:
+    output: true
+    permalink: /sistemas-lineares/:path/
 
 just_the_docs:
   collections:
@@ -12,11 +30,3 @@ just_the_docs:
       name: "Zeros de Funções"
     sistemas-lineares:
       name: "Sistemas Lineares"
-
-collections:
-  aritmetica:
-    output: true
-  zeros:
-    output: true
-  sistemas-lineares:
-    output: true
