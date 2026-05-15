@@ -16,6 +16,7 @@ Ao calcular o zero de uma função, deve-se considerar:
 - Existe solução?
 
 - Caso exista solução: A solução é única?
+  
 ---
 
 ### Exemplo
