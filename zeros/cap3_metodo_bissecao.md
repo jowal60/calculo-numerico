@@ -5,36 +5,39 @@ parent: "Zeros de Funções"
 nav_order: 1
 ---
 
-# Método da Bisseção
+# 📌 Método da Bisseção
 
 O método da bisseção é uma técnica numérica simples, robusta e eficiente para determinar raízes de funções contínuas.
 
-> “Seu objetivo é encontrar uma raiz da função f(x) em um intervalo [a, b], tal que f(a) e f(b) tenham sinais opostos.”  
+> “Seu objetivo é encontrar uma raiz da função f(x) em um intervalo [a, b], tal que f(a) e f(b) tenham sinais opostos.”
+
 > *(CN_metodo_da_bissecao.pdf)*
 
 ---
 
-## Hipóteses
+## ✅ Hipóteses
+
+Para aplicar o método, é necessário que:
 
 - f é contínua em $[a, b]$
 - $f(a)\cdot f(b) < 0$
 
 ---
 
-## Entrada (Input)
+## 🎯 Entrada (Input)
 
 - Extremos $a$ e $b$
 - Tolerância `tol`
 - Número máximo de iterações `maxit`
 
-## Saída (Output)
+## 🎯 Saída (Output)
 
 - Aproximação da raiz  
 - Ou mensagem de falha
 
 ---
 
-# Algoritmo
+# ⚙️ Algoritmo
 
 1. Inicialize $x = a$, $y = b$
 2. Defina `iter = 0`
@@ -48,13 +51,13 @@ O método da bisseção é uma técnica numérica simples, robusta e eficiente p
 
 ---
 
-# Vantagens
+# ⭐ Vantagens 
 
 - Simplicidade
 - Convergência garantida
 - Estabilidade numérica
 
-# Desvantagens
+# ⚠️ Desvantagens
 
 - Convergência lenta (linear)
 - Exige mudança de sinal no intervalo
