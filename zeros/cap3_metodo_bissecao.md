@@ -121,7 +121,7 @@ Iterações: 20
 ---
 
 # Exemplo 2  
-**Aproximar pelo método da Bisseção a raiz de** $f(x) = x^3 + 4x^2 - 10$ **em** \([1, 2]\) com o criterio de parada $|b_k-a_k| < 10^{-6}$.
+**Aproximar pelo método da Bisseção a raiz de** $f(x) = x^3 + 4x^2 - 10$ **em** $[1, 2]$ com o criterio de parada $|b_k-a_k| < 10^{-6}$.
 
 ## Solução
 
@@ -171,7 +171,27 @@ Iterações: 20
 ---
 
 # Exemplo 3  
-**Aproximar pelo método da Bisseção a raiz de** $f(x) = e^x - x - 2$ **em** $[-2, 0]$
+**Aproximar pelo método da Bisseção a raiz de** $f(x) = e^x - x - 2$ **em** $[-2, \; 0]$ com o criterio de parada $|b_k-a_k| < 10^{-6}$.
+
+** Solução
+
+Pelo método da bisseção, segue-se os seguintes passos:
+
+1. **Intervalo Inicial**: $f(-2)=0.1353$ e $f(0)=-1$.
+	
+	Como $f$ é contínua e $f(-2) \cdot f(0)<0$, há uma raiz no intervalo $[-2, \; 0]$;
+
+2. **Ponto Médio**: $pm=\dfrac{-2+0}{2}=-1$, e $f(-1)=e^{-1}-(-1)-2=-0.6321$;
+   
+3. **Novo intervalo**: 
+	
+	Como $f(-2) \cdot f(-1)<0$, a raiz está em $[-2, \; -1]$;
+   
+4. **Repetição**: Continue repetindo os passos, recalculando o ponto médio e ajustando o intervalo até atingir a precisão desejada.
+
+Tabela:
+
+
 
 **Raiz aproximada:** **–1.8408**
 
