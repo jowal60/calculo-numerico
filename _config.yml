@@ -2,12 +2,10 @@ title: "Cálculo Numérico"
 description: "Notas de aula — Dr. José Walter Cárdenas Sotil"
 theme: just-the-docs
 
-# Configuração correta para Project Site
 url: "https://jowal60.github.io"
 baseurl: "/calculo-numerico"
 relative_links: true
 
-# Coleções (sem números no nome)
 collections:
   aritmetica:
     output: true
@@ -19,7 +17,6 @@ collections:
     output: true
     permalink: /sistemas-lineares/:path/
 
-# Configuração do Just-the-Docs
 just_the_docs:
   collections:
     aritmetica:
@@ -28,22 +25,8 @@ just_the_docs:
       name: "Zeros de Funções"
     sistemas-lineares:
       name: "Sistemas Lineares"
-  math: true   # habilita suporte matemático no tema
+  math: true
 
-# Ativar MathJax para renderizar fórmulas LaTeX
 markdown: kramdown
 kramdown:
   math_engine: mathjax
-  mathjax:
-    path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    tex:
-      inlineMath:
-        - ["$", "$"]
-        - ["\\(", "\\)"]
-      displayMath:
-        - ["$$", "$$"]
-        - ["\
-
-\[", "\\]
-
-"]
