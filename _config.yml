@@ -4,19 +4,17 @@ theme: just-the-docs
 
 url: "https://jowal60.github.io/calculo-numerico"
 
-# CONFIGURAÇÃO DAS COLEÇÕES (com os novos nomes das pastas)
 collections:
   01-aritmetica:
     output: true
-    permalink: /01-aritmetica/:path/
+    permalink: /aritmetica/:path/
   02-zeros:
     output: true
-    permalink: /02-zeros/:path/
+    permalink: /zeros/:path/
   03-sistemas-lineares:
     output: true
-    permalink: /03-sistemas-lineares/:path/
+    permalink: /sistemas-lineares/:path/
 
-# Nomes exibidos no menu lateral, na ordem desejada
 just_the_docs:
   collections:
     01-aritmetica:
