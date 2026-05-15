@@ -28,3 +28,10 @@ just_the_docs:
       name: "Zeros de Funções"
     sistemas-lineares:
       name: "Sistemas Lineares"
+
+# Ativar MathJax para renderizar fórmulas LaTeX
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  mathjax:
+    path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
