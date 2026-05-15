@@ -329,14 +329,19 @@ Resolver a equação $e^x-2=cos(x-2)$.
 
 # Convergência do Método da Bisseção
 Sejam $[a_0,  b_0]$ um intervalo tal que
+
 $$
 f \in C^0[a,b] \quad \text{e} \quad f(a_0) \cdot f(b_0) <0
 $$
+
 O método gera uma sequência de intervalos encaixados:
+
 $$
 [a_{k+1}, \; b_{k+1}] \subset [a_k, \; b_k] \subset \cdots \subset [a_1, \; b_1] \subset [a_0, \; b_0].
 $$
+
 Além disso:
+
 \begin{itemize}
 	\item[\textbullet]
 	$\{a_k\}$ é crescente e limitada superiormente por 
