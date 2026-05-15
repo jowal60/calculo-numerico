@@ -1,6 +1,9 @@
 ---
-title: Método da Bisseção
+title: Zeros de Funções
 layout: default
-parent: Zeros de Funções
-nav_order: 1
+nav_order: 2
 ---
+
+# Zeros de Funções
+
+Selecione um dos métodos no menu lateral.
