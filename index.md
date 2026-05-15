@@ -10,6 +10,6 @@ Bem-vindo ao livro digital de Cálculo Numérico — Dr. José Walter Cárdenas 
 
 ## Seções
 
-- [Aritmética](/aritmetica/)
-- [Zeros de Funções](/zeros/)
-- [Sistemas Lineares](/sistemas-lineares/)
+- [Aritmética]({{ site.baseurl }}/aritmetica/)
+- [Zeros de Funções]({{ site.baseurl }}/zeros/)
+- [Sistemas Lineares]({{ site.baseurl }}/sistemas-lineares/)
