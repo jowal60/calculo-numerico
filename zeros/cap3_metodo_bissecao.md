@@ -281,7 +281,7 @@ Resolver a equação $e^x-2=cos(x-2)$.
 ## Solução
 
 1. O problema equivale a calcular os zeros da função: $f(x)=e^x-cos(x-2)-2$;
-	\item
+
 2. **Intervalo Inicial**: $f(0)=-0.5838$ e $f(2)=4.3890$. 
 	
 	Como $f$ é contínua e $f(0) \cdot f(2)<0$, há uma raiz no intervalo $[0,  2]$;
@@ -289,7 +289,7 @@ Resolver a equação $e^x-2=cos(x-2)$.
 3. **Ponto Médio**: $pm=\dfrac{0+2}{2}=1$, e $f(1)=0.1779$;
 	
 4. **Novo intervalo**: Como $f(0) \cdot f(1)<0$, a raiz está em $[0,  1]$;
-	\item
+   
 5. **Repetição**: Continue repetindo os passos, recalculando o ponto médio e ajustando o intervalo até atingir a precisão desejada.
 
 
