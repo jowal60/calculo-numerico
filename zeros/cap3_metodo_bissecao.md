@@ -78,11 +78,11 @@ Para determinar uma raiz da função
 	
 1. **Intervalo Inicial**: $f(1)=-2$ e $f(2)=4$.
    
-   Como $f$ é contínua e $f(1) \cdot f(2)<0$, há uma raiz no intervalo  $[1, \; 2]$;
+   Como $f$ é contínua e $f(1) \cdot f(2)<0$, há uma raiz no intervalo  $[1,  2]$;
 		
 3. **Ponto Médio**: $pm=\dfrac{1+2}{2}=1.5$, e $f(1.5)=1.5^3-1.5-2=-0.125$;  
 		
-4. **Novo intervalo**: 	Como $f(1) \cdot f(1.5)>0$, a raiz está em 	$[1.5, \; 2]$;      
+4. **Novo intervalo**: 	Como $f(1) \cdot f(1.5)>0$, a raiz está em 	$[1.5,  2]$;      
 		
 5. **Repetição**: Continue repetindo os passos, recalculando o ponto médio e ajustando o intervalo até atingir a precisão desejada.
 
@@ -129,11 +129,11 @@ Pelo método da bisseção, segue-se os seguintes passos:
 
 1. **Intervalo Inicial**: $f(1)=-5$ e $f(2)=14$.
 	
-	Como $f$ é contínua e $f(1) \cdot f(2)<0$, há uma raiz no intervalo $[1, \; 2]$;
+	Como $f$ é contínua e $f(1) \cdot f(2)<0$, há uma raiz no intervalo $[1,  2]$;
 
 2. **Ponto Médio**: $pm=\dfrac{1+2}{2}=1.5$, e $f(1.5)=1.5^3+4 \cdot 1.5^2-10=2.375$;
 
-3. **Novo intervalo**: Como $f(1) \cdot f(1.5)<0$, a raiz está em $[1, \; 1.5]$;
+3. **Novo intervalo**: Como $f(1) \cdot f(1.5)<0$, a raiz está em $[1,  1.5]$;
 
 4. **Repetição**: Continue repetindo os passos, recalculando o ponto médio e ajustando o intervalo até atingir a precisão desejada.
 
@@ -171,7 +171,7 @@ Iterações: 20
 ---
 
 # Exemplo 3  
-**Aproximar pelo método da Bisseção a raiz de** $f(x) = e^x - x - 2$ **em** $[-2, \; 0]$ com o criterio de parada $|b_k-a_k| < 10^{-6}$.
+**Aproximar pelo método da Bisseção a raiz de** $f(x) = e^x - x - 2$ **em** $[-2,  0]$ com o criterio de parada $|b_k-a_k| < 10^{-6}$.
 
 ** Solução
 
@@ -179,13 +179,13 @@ Pelo método da bisseção, segue-se os seguintes passos:
 
 1. **Intervalo Inicial**: $f(-2)=0.1353$ e $f(0)=-1$.
 	
-	Como $f$ é contínua e $f(-2) \cdot f(0)<0$, há uma raiz no intervalo $[-2, \; 0]$;
+	Como $f$ é contínua e $f(-2) \cdot f(0)<0$, há uma raiz no intervalo $[-2, 0]$;
 
 2. **Ponto Médio**: $pm=\dfrac{-2+0}{2}=-1$, e $f(-1)=e^{-1}-(-1)-2=-0.6321$;
    
 3. **Novo intervalo**: 
 	
-	Como $f(-2) \cdot f(-1)<0$, a raiz está em $[-2, \; -1]$;
+	Como $f(-2) \cdot f(-1)<0$, a raiz está em $[-2, -1]$;
    
 4. **Repetição**: Continue repetindo os passos, recalculando o ponto médio e ajustando o intervalo até atingir a precisão desejada.
 
