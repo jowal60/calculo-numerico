@@ -5,6 +5,7 @@ parent: "Zeros de Funções"
 nav_order: 1
 ---
 
+
 # 📌 Método da Bisseção
 
 O método da bisseção é uma técnica numérica simples, robusta e eficiente para determinar raízes de funções contínuas.
