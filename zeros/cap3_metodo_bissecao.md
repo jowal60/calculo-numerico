@@ -2,7 +2,7 @@
 title: "Método da Bisseção"
 layout: default
 parent: "Zeros de Funções"
-nav_order: 2
+nav_order: 3
 ---
 
 # 📌 Método da Bisseção
