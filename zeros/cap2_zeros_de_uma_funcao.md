@@ -5,12 +5,12 @@ parent: "Zeros de Funções"
 nav_order: 1
 ---
 
-# Zero de uma função
+# 📌 Zero de uma função
 
-## Definição
+## ⭐ Definição
 O zero ou raiz de uma função $f$ é o valor de $x$ tal que $f(x) = 0$.
 
-### Observação
+### ⚡ Observação
 Ao calcular o zero de uma função, deve-se considerar:
 
 - Existe solução?
@@ -19,28 +19,28 @@ Ao calcular o zero de uma função, deve-se considerar:
   
 ---
 
-## Exemplo
+## 📘 Exemplo
 A função $f(x)=x^2-4$ admite solução e tem duas raízes $x=2$ e $x=-2$ (a solução não é única)
 
 ![ ](../assets/images/zeros1.png)
 
 ---
 
-## Exemplo
+## 📘 Exemplo
 A função $f(x)=x^3-4$ admite solução e tem uma única raiz real $x=\sqrt[3]{4}$ (solução única).
 
 ![ ](../assets/images/zeros2.png)
 
 ---
 
-## Exemplo
+## 📘 Exemplo
 A função $f(x)=x^2+1$ não admite solução real.
 
 ![](../assets/images/zeros3.png)
 
 ---
 
-## Métodos Numéricos
+## 📚 Métodos Numéricos
 Na maioria dos casos não há métodos para calcular explicitamente os zeros de uma função, pelo qual são usados métodos numéricos para aproximar os zeros de uma função. Entre estes métodos temos:
 
 - Método da bisseção
@@ -53,10 +53,10 @@ Na maioria dos casos não há métodos para calcular explicitamente os zeros de 
 
 ---
 
-## Existência e Unicidade
+## 📚 Existência e Unicidade
 O seguinte Teorema da condições para a existência do zero de uma função:
 
-### Teorema de Bolzano (Condição de Existência)
+### 📚 Teorema de Bolzano (Condição de Existência)
 Se $f: [a,\; b] \rightarrow R$ é uma função contínua tal que 
 
 $$
@@ -71,7 +71,7 @@ $$
 
 ![](../assets/images/zeros4.PNG)
 
-## Observação
+## ⚡ Observação
 
 - A condição $f(a) \cdot f(b) < 0$ equivale a dizer que a função troca de sinal no intervalo $[a, \; b]$.
 
@@ -79,7 +79,7 @@ $$
 
 ---
 
-## Exemplo
+## 📘 Exemplo
 Na função $f(x)=x^2-3$:
 
 - $f(x)$ é continua em $R$
@@ -94,7 +94,7 @@ pelo Teorema de Bolzano há um zero da função $f(x)=x^2-3$ no intervalo $(0, \
 
 O seguinte Teorema da condição para a unicidade do zero de uma função.
 
-## Teorema (Unicidade)
+## 📚 Teorema (Unicidade)
 Se $f:[a, \ b] \rightarrow R$ é uma função diferenciável, tal que, $\forall x \in (a, \ b)$:
 
 i) $f(a) \cdot f(b) < 0$, e
@@ -105,7 +105,7 @@ então, existe um único $x^* \in (a, \; b)$,  tal que $f(x^*)=0$.
 
 ---
 
-## Observação
+## ⚡ Observação
 Isto é, para garantir que exista um único zero de uma função diferenciável num intervalo, é suficiente que:
 
 i) ela troque de sinal nos extremos, e
@@ -114,14 +114,14 @@ ii) seja monótona neste intervalo.
 
 ---
 
-## Exemplo
+## 📘 Exemplo
 Verifique que existe exatamente uma  solução da equação
 \[
 e^x=x+2
 \]
 no intervalo $[-2, \ 0]$.
 
-### Solução
+### 🛠️ Solução
 i) resolver a equação $e^x=x+2$ equivale a resolver $f(x)=0$ com $f(x)=e^x-x-2$, a qual é uma função contínua;
 
 ii) como $f(-2)=e^{-2} > 0$ e $f(0)=-1<0$, temos do teorema de Bolzano que existe pelo menos um zero de $f$ no intervalo $(-2, \ 0)$.
