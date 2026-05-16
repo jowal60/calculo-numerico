@@ -22,12 +22,11 @@ $p$ é um ponto fixo da função $g$, se e somente se, $g(p)=p$.
 	$$
 	portanto, $g(p)=p$.
 		
-	- Reciprocamente, o problema de ponto fixo: $g(p)=p$, pode-se transformar num problema de achar um zero fazendo $f(x)=g(x)-x$:
+- Reciprocamente, o problema de ponto fixo: $g(p)=p$, pode-se transformar num problema de achar um zero fazendo $f(x)=g(x)-x$:
 
-			$$
-				g(p)=p \Rightarrow f(p)=g(p) - p
-				=p - p =0,
-			$$
+$$
+				g(p)=p \Rightarrow f(p)=g(p) - p =p - p =0,
+$$
 
-			portanto, $f(p)=0$.		
+portanto, $f(p)=0$.		
 
