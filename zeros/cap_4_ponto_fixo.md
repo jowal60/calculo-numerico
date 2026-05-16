@@ -43,7 +43,7 @@ Determine se a função $g(x)=x^2-2$ tem um ponto fixo.
 Deve-se resolver: $\color{white}{g(x)=x}$:
 
 $$
-\begin{aligned}[rl]
+\begin{aligned}
 	 g(x) = x& \\
 	 x^2-2 = x& \\
 	 x^2-x-2 = 0& \\
