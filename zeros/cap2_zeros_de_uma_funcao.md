@@ -59,9 +59,7 @@ O seguinte Teorema da condições para a existência do zero de uma função:
 ## 📚 Teorema de Bolzano (Condição de Existência)
 Se $f: [a,\; b] \rightarrow R$ é uma função contínua tal que 
 
-$$
-f(a) \cdot f(b) < 0,
-$$
+$$f(a) \cdot f(b) < 0,$$
 
 então, existe $x^* \in (a,\; b)$ tal que 
 
