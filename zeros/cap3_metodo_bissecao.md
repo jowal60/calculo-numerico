@@ -383,7 +383,7 @@ Portanto, o método converge para uma raiz de $f$.
 
 Seja $e_k=|r-c_k|$  o erro nas k-ésima iteração. Então,
 
-$$e_k \leq \dfrac{b_0-a_0}{2^k}.$
+$e_k \leq \dfrac{b_0-a_0}{2^k}.$
 
 Logo, 
 
