@@ -20,17 +20,13 @@ $p$ é um ponto fixo da função $g$, se e somente se, $g(p)=p$.
 	
   Por exemplo, se $g(x)=x - \alpha f(x)$:
   
-$$
-	f(p)=0 \Rightarrow g(p)=p - \alpha f(p)=p - \alpha \cdot 0=p,
-$$
+$$	f(p)=0 \Rightarrow g(p)=p - \alpha f(p)=p - \alpha \cdot 0=p, $$
 
 $\qquad$ portanto, $g(p)=p$.
 		
 - Reciprocamente, o problema de ponto fixo: $g(p)=p$, pode-se transformar num problema de achar um zero fazendo $f(x)=g(x)-x$:
 
-$$
-  g(p)=p \Rightarrow f(p)=g(p) - p =p - p =0,
-$$
+$$  g(p)=p \Rightarrow f(p)=g(p) - p =p - p =0, $$
   
 $\qquad$ portanto, $f(p)=0$.		
 
