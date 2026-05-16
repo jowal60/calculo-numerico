@@ -380,7 +380,6 @@ Portanto, o método converge para uma raiz de $f$.
 ---
 
 # Ordem de Convergência
-
 Seja $e_k=|r-c_k|$  o erro nas k-ésima iteração. Então,
 
 $e_k \leq \dfrac{b_0-a_0}{2^k}.$
