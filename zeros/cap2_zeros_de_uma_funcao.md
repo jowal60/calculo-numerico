@@ -56,7 +56,7 @@ Na maioria dos casos não há métodos para calcular explicitamente os zeros de 
 ## 📚 Existência e Unicidade
 O seguinte Teorema da condições para a existência do zero de uma função:
 
-### 📚 Teorema de Bolzano (Condição de Existência)
+## 📚 Teorema de Bolzano (Condição de Existência)
 Se $f: [a,\; b] \rightarrow R$ é uma função contínua tal que 
 
 $$
@@ -69,7 +69,7 @@ $$
 f(x^*)=0
 $$
 
-![](../assets/images/zeros4.PNG)
+! (../assets/images/zeros4.PNG)
 
 ## ⚡ Observação
 
