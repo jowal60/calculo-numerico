@@ -1,20 +1,18 @@
 title: "Cálculo Numérico"
 description: "Notas de aula — Dr. José Walter Cárdenas Sotil"
-
 theme: just-the-docs
 
 url: "https://jowal60.github.io"
 baseurl: "/calculo-numerico"
+relative_links: true
 
 collections:
   aritmetica:
     output: true
     permalink: /aritmetica/:path/
-
   zeros:
     output: true
     permalink: /zeros/:path/
-
   sistemas-lineares:
     output: true
     permalink: /sistemas-lineares/:path/
@@ -23,17 +21,12 @@ just_the_docs:
   collections:
     aritmetica:
       name: "Aritmética"
-
     zeros:
       name: "Zeros de Funções"
-
     sistemas-lineares:
       name: "Sistemas Lineares"
-
   math: true
 
 markdown: kramdown
-
 kramdown:
-  input: Kramdown
   math_engine: mathjax
