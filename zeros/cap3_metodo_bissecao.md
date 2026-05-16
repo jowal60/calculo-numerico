@@ -334,47 +334,36 @@ Resolver a equação $e^x-2=cos(x-2)$.
 # Convergência do Método da Bisseção
 Sejam $[a_0,  b_0]$ um intervalo tal que
 
-$$
-f \in C^0[a,b] \quad \text{e} \quad f(a_0) \cdot f(b_0) <0
-$$
+$ f \in C^0[a,b]$  e $f(a_0) \cdot f(b_0) <0$
 
 O método gera uma sequência de intervalos encaixados:
 
-$$
-[a_{k+1}, \; b_{k+1}] \subset [a_k, \; b_k] \subset \cdots \subset [a_1, \; b_1] \subset [a_0, \; b_0].
-$$
+$ [a_{k+1}, \; b_{k+1}] \subset [a_k, \; b_k] \subset \cdots \subset [a_1, \; b_1] \subset [a_0, \; b_0].$
 
 Além disso:
 
 - $\{a_k\}$ é crescente e limitada superiormente por $b_0$, e portanto é convergente:
 
-$$
-a_0 \leq a_1 \leq \cdots a_k \leq \cdots \leq b_0;
-$$  
+$ a_0 \leq a_1 \leq \cdots a_k \leq \cdots \leq b_0; $  
 	
 - $\{b_k\}$ é decrescente e limitada inferiormente por $a_0$, e portanto é convergente:
  
-$$
-b_0 \geq b_1 \geq \cdots b_k \geq \cdots \geq a_0;
-$$
+$ b_0 \geq b_1 \geq \cdots b_k \geq \cdots \geq a_0; $
 	
 - O comprimento do intervalo satisfaz:
 
-$$
+$
 \begin{aligned}
 b_1-a_1 &= \frac{b-a}{2} \\
 b_2-a_2 &= \frac{b_1-a_1}{2}=\frac{b-a}{2^2} \\
 \vdots &= \vdots \\
 b_k-a_k&= \frac{b_{k-1}-a_{k-1}}{2}=\frac{b_0-a_0}{2^k} \longrightarrow_{n \to \infty} 0. 
 \end{aligned}
-$$
+$
 
 Logo,
 
-$$
-\lim\limits_{k \to \infty} (a_k - b_k) =0
-	\Rightarrow \lim\limits_{k \to \infty} a_k = \lim\limits_{k \to \infty} b_k=r
-$$
+$ \lim\limits_{k \to \infty} (a_k - b_k) =0 \Rightarrow \lim\limits_{k \to \infty} a_k = \lim\limits_{k \to \infty} b_k=r $
 
 e, pela continuidade de $f$,
 
