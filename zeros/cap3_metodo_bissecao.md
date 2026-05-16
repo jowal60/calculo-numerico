@@ -383,15 +383,11 @@ Portanto, o método converge para uma raiz de $f$.
 
 Seja $e_k=|r-c_k|$  o erro nas k-ésima iteração. Então,
 
-$$
-e_k \leq \dfrac{b_0-a_0}{2^k}.
-$$
+$$e_k \leq \dfrac{b_0-a_0}{2^k}.$
 
 Logo, 
 
-$$
-e_{k+1} \leq \dfrac{1}{2} \cdot e_k
-$$
+$e_{k+1} \leq \dfrac{1}{2} \cdot e_k$
 
 o que implica que:
 
@@ -407,21 +403,15 @@ Portanto, tem-se convergência **linear** no método da bisseção com **taxa de
 
 Para garantir erro $e_k < E$, basta impor:
 
-$$
-\dfrac{(b_0-a_0)}{2^k} < E
-$$
+$\dfrac{(b_0-a_0)}{2^k} < E$
 
 Daí, o número de iterações $k$ é:
 
-$$
-k \geq \log_2 \left(\dfrac{b_0-a_0}{E} \right)
-$$
+$k \geq \log_2 \left(\dfrac{b_0-a_0}{E} \right)$
 
 ou equivalentemente,
 
-$$
-k=  \left\lceil \dfrac{\log \left(\dfrac{b_0-a_0}{E}\right)}{\log(2)} \right\rceil
-$$
+$k=  \left\lceil \dfrac{\log \left(\dfrac{b_0-a_0}{E}\right)}{\log(2)} \right\rceil$
 
 ---
 
