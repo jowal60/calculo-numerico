@@ -69,7 +69,7 @@ $$
 f(x^*)=0
 $$
 
-! (../assets/images/zeros4.PNG)
+! [](../assets/images/zeros4.PNG)
 
 ## ⚡ Observação
 
