@@ -352,7 +352,7 @@ $\qquad b_0 \geq b_1 \geq \cdots b_k \geq \cdots \geq a_0;$
 	
 - O comprimento do intervalo satisfaz:
 
-[[
+\[[
 \begin{array}{rcl}
 b_1-a_1 & = & \frac{b-a}{2} \\
 b_2-a_2 & = & \frac{b_1-a_1}{2}=\frac{b-a}{2^2} \\
@@ -361,7 +361,7 @@ b_k-a_k & = &
 \frac{b_{k-1}-a_{k-1}}{2}
 =\frac{b_0-a_0}{2^k}\to 0
 \end{array}
-]]
+\]]
 
 Logo,
 
