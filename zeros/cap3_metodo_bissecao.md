@@ -371,9 +371,7 @@ e, pela continuidade de $f$,
 
 Tem-se:
 
-$$
-0  \geq \lim\limits_{k \to \infty} f(a_k) \cdot f(b_k) = f(\lim\limits_{k \to \infty} a_k) \cdot f(\lim\limits_{k \to \infty} b_k) = f(r)\cdot f(r) = [f(r)]^2 \geq 0 
-$$
+$0 \geq \lim\limits_{k \to \infty} f(a_k) \cdot f(b_k) = f(\lim\limits_{k \to \infty} a_k) \cdot f(\lim\limits_{k \to \infty} b_k) = f(r)\cdot f(r) = [f(r)]^2 \geq 0$
 
 logo, $f(r)=0$.
 
