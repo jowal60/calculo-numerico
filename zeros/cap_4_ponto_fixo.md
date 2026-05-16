@@ -14,7 +14,7 @@ $p$ é um ponto fixo da função $g$, se e somente se, $g(p)=p$.
 
 - Geometricamente, um ponto fixo de uma função é um ponto de intersecção entre a reta $y=x$ com o gráfico da função $g(x)$.
 
-  ![ ](../assets/images/zeros1.png)
+  ![ ](../assets/images/fig_pontofixo1.JPG)
 	
 - O problema de achar um zero: $f(p)=0$, pode-se transformar num problema de ponto fixo: $g(p)=p$, definindo a função $g$ de várias formas.
 	
@@ -55,5 +55,5 @@ Logo, os pontos fixos de $g$ são: $x=-1$ e $x=2$.
 
 Geometricamente os pontos fixos $x=-1$ e  $x=2$ são as interseções do gráfico de $g(x)=x^2-2$ e a reta $y=x$.
 
-![ ](../assets/images/zeros1.png)
+![ ](../assets/images/fig_pontofixo2.JPG)
 
