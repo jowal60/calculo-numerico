@@ -278,9 +278,9 @@ Seja $g:[a, \; b] \to [a, \ b]$:
 
 <b>Teorema do Pònto Fixo</b>
 
-Se $g:[a, \ b]\to [a, \; b]$ é uma contração, então existe um único ponto fixo $x^* \in [a, \ b]$, isto é, $g(x^*) = x^*$.
+Se $g:[a, \ b]\to [a, \; b]$ é uma contração, então existe um único ponto fixo $x^* \in [a, \ b]$, isto é, $g( x^* ) = x^*$.
 	
-Além disso, a sequência $\left{ x_n \right}_{n\in\mathbb{N}}$ dada por:
+Além disso, a sequência $x_n, \ n \in \mathbb{N}$, dada por:
 	
 $\qquad x_{n+1} = g(x_n), \quad n \geq 0$
 	
