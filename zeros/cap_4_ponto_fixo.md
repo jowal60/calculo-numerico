@@ -240,4 +240,24 @@ obtém-se a seguinte tabela com os resultados:
 
 A sequência $x_n$ é divergente, enquanto a sequência $z_n$ é convergente.
 
+---
+
+<b>Observação</b>
+
+Em geral, deve-se responder às seguintes questões:
+
+- Será que a iteração do ponto fixo é convergente?
+	
+- Caso seja convergente, será que o limite da sequência $x^* = \lim\limits_{n\to \infty }x_{n}$ é um ponto fixo?
+		
+$\qquad$ A resposta é na afirmativa:
+	
+$\quuad x^* = \lim\limits_{n\to\infty} x_n = \lim\limits_{n\to\infty} g(x_{n-1}) = g \left( \lim\limits_{n\to\infty} x_{n-1} \right) = g(x^*)$.
+	
+- Caso seja convergente, qual é a taxa de convergência?
+
+---
+
+
+
 
