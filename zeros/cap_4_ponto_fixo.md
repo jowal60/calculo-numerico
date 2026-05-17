@@ -216,6 +216,13 @@ $\qquad g_2(p) = p-0.05 f(p) \quad \Rightarrow \quad  p=p-0.05f(p) \quad \Righta
 		
 - Construindo as iterações do ponto fixo:
 
+$$
+f(x) = \begin{cases}
+x^2 & \text{if } x \geq 0 \\
+-x^2 & \text{if } x < 0
+\end{cases}
+$$
+
 $\begin{array}{c}
 x_{n+1} &= g_1(x_n) \\ 
 x_0 &= 1.7 
