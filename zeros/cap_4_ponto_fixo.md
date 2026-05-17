@@ -326,7 +326,39 @@ ${} \quad$ retornar x, xp, iter
 
 ---
 
-<h1 style="color: red;">Meu Título Vermelho</h1>
+<b>Exemplo</b>
+
+- Mostre que o teorema do ponto fixo se aplica a função $g(x)=cos(x)$ no intervalo $[1/2, \ 1]$, isto é, mostre que o método da iteração de ponto fixo converge para a solução da equação $cos(x)=x$;
+	
+- então, calcule as iterações do ponto fixo com aproximação inicial $x_0=0,7$;
+	
+- estime o erro absoluto da aproximação e verifique a taxa de convergência.
+
+<b> Solução do item 1</b>
+
+É suficiente mostrar que:
+
+a) $g([1/2, \ 1]) \subseteq [1/2, \ 1]$;
+	
+b) $|g'(x)|<\beta, \quad 0<\beta<1,\quad \forall x\in [1/2, \ 1]$.
+
+a) $g(x)$ é decrescente no intervalo $[1/2, \; 1]$, logo:
+	
+$ \qquad 0.54 < \cos(1) \leq  \cos(x) \leq \cos(1/2) < 0.88$
+	
+$\qquad$ portanto,
+	
+$\qquad g([1/2, \; 1]) \subset [0.54, \; 0.88]\subset [1/2, \; 1]$.
+	
+b)	$g'(x)=-sen(x)$
+	
+$\qquad$ como $g'(x)$ é decrescente no intervalo $[1/2, \ 1]$, temos a estimativa:
+	
+$\qquad -0,85<-sen(1) \leq  -sen(x)\leq -sen(1/2)<-0,47$.
+	
+$\qquad$ Assim, $\mid g'(x) \mid <0,85$, e a desigualdade se verifica com $\beta = 0,85<1$.
+
+De a) e b), temos que o método de iteração de ponto fixo é convergente no intervalo $[1/2, \ 1]$.
 
 
 
