@@ -96,7 +96,6 @@ Conclui-se que existe um único ponto fixo em $[a, \ b]$.
 
 ---
 
-<div class="exemplo">
 <b>Exemplo</b>
 
 Verificar que $g(x)=\dfrac{x^2-1}{3}$ tem um único ponto fixo em $[-1, \; 1]$.
@@ -131,11 +130,8 @@ portanto, $g$ admite um único ponto fixo no intervalo $[-1, \ 1]$.
 
 ![ ](../assets/images/fig_pontofixo4.JPG)
 
-</div>
-
 ---
 
-<div class="observaçao">
 <b> Observação </b>
 	
 - Considerando $g(x)=(x^2-1)/3$ no intervalo $[3, \ 4]$, temos o ponto fixo $p_2 = (3+\sqrt{13})/2$;
@@ -146,11 +142,8 @@ portanto, $g$ admite um único ponto fixo no intervalo $[-1, \ 1]$.
 
 O Teorema da condições suficientes, mas não necessárias.
 
-</div>
-
 ---
 
-<div class="exemplo">
 <b> Exemplo </b>
 
 Mostre que o teorema não garante a unicidade de um ponto fixo de $g(x)=3^{-x}$ em $[0, \ 1]$, ainda que exista um único ponto fixo nesse intervalo.
@@ -168,9 +161,8 @@ Mostre que o teorema não garante a unicidade de um ponto fixo de $g(x)=3^{-x}$ 
 O teorema não garante a unicidade. Entretanto o gráfico mostra a existência de um único ponto fixo de $g$ em $[0, \ 1]$.
 
 ![ ](../assets/images/fig_pontofixo5.JPG)
-</div>
 
-<div class="observacao">
+
 <b> Observação</b>
 
 Como determinar o ponto fixo de $g(x)=3^{-x}$ no intervalo $[0, \ 1]$?
@@ -179,13 +171,10 @@ Como determinar o ponto fixo de $g(x)=3^{-x}$ no intervalo $[0, \ 1]$?
 	
 - ou, desenvolver métodos numéricos para aproximar os pontos fixos. !!!
 
-</div>
-
 ---
 
 # Método da iteração do Ponto Fixo
 
-<div class="problema">
 <b> Problema:</b>
 
 Dada uma função $g(x)$ desejamos resolver a equação $x=g(x)$.
@@ -197,11 +186,10 @@ $\qquad x_{n+1} = g(x_n), \quad n>0$
 com $x_0$ sendo uma aproximação inicial do ponto fixo.
 
 ![ ](../assets/images/fig_pontofixo6.JPG)
-</div>
+
 
 ---
 
-<div class="exemplo">
 <b> Exemplo</b>
 
 Aplicando o método de iteração do ponto fixo, determinar o zero da função $f(x)=xe^x - 10$.
@@ -269,4 +257,4 @@ e
 		A sequência $x_n$ é divergente, enquanto a sequência 
 		$z_n$ é convergente.
 \end{itemize}
-</div>
+
