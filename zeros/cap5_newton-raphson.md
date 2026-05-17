@@ -56,3 +56,8 @@ Do método iterativo do ponto fixo: $x_{n+1}=g(x_n)$, obtém-se o **método de N
 $\qquad \boxed{x_{n+1} = x_{n} - \dfrac{f\left(x_n \right)}{f'\left(x_{n}\right)}, \quad n\geq 0,}$
 
 sendo $x_0$ uma aproximação inicial dada.
+
+---
+
+### Interpretação Geométrica
+
