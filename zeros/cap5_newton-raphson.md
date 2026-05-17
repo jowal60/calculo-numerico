@@ -60,4 +60,21 @@ sendo $x_0$ uma aproximação inicial dada.
 ---
 
 ### Interpretação Geométrica
+<img src="../assets/images/fig_newton1.JPG" alt="Interpretação geométrica" width="400">
+
+Geometricamente, o ponto $x_{n+1}$ é a interseção da reta tangente ao gráfico da função $f(x)$ no ponto $x=x_n$ com o eixo das abscissas.
+
+Com efeito, a equação da reta que passa pelo ponto $(x_n, \; f(x_n))$ é:
+
+$\qquad y = f'(x_n)(x - x_n) + f(x_n)$. 
+
+Assim, a interseção desta reta com o eixo das abscissas $y=0$ é:
+
+$\qquad f'(x_n)(x - x_n) + f(x_n) = 0$
+
+e portanto,
+
+$\qquad x = x_n - \dfrac{f(x_n)}{f'(x_n)}$
+
+com $x=x_{n+1}$.
 
