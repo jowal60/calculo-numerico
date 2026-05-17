@@ -1,0 +1,4 @@
+
+
+
+# Método de Newton-Raphson
