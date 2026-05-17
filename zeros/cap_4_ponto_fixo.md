@@ -223,13 +223,15 @@ x^2 & \text{if } x \geq 0 \\
 \end{cases}
 $$
 
-$\begin{cases}
-x_{n+1} &= g_1(x_n) \\ 
-x_0 &= 1.7 
+$$
+\begin{cases}
+x_{n+1} & = g_1(x_n) \\ 
+x_0 & = 1.7 
 \end{cases}$ $\quad \Rightarrow \quad$ $\begin{cases} 
 x_{n+1} &= x_n - 0.5 f(x_n) \\
 x_0 &= 1.7 
-\end{cases}$
+\end{cases}
+$$
 
 
 e
