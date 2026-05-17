@@ -88,9 +88,9 @@ Por contradição: vamos supor que $p$ e $q$ são dois pontos fixos diferentes, 
 		
 - pelo TVM, existe $r \in [p, \ q]$, tal que $\dfrac{g(q)-g(p)}{q-p}=g^{'}(r)$;
 		
-- $|q-p| = |g(q)-g(p)| = |g^{'}(r)| \ |q-p| \leq k |q-p| < |q-p|$;
+- $\mid q-p \mid = \mid g(q)-g(p) \mid = \mid g^{'}(r) \mid \ \mid q-p \mid \leq k \mid q-p \mid < \mid q-p \mid$;
 		
-- portanto, $|q-p| < |q-p|$, o qual é uma contradição.
+- portanto, $\mid q-p \mid < \mid q-p \mid$, o qual é uma contradição.
 		
 Conclui-se que existe um único ponto fixo em $[a, \ b]$.
 
@@ -110,7 +110,7 @@ $\qquad 0 \leq x^2 \leq 1 \Rightarrow -\dfrac{1}{3} \leq \dfrac{x^2-1}{3} \leq 0
 		
 - se $x \in [-1, \ 1]$, então
   
-$\qquad |g^{'}(x)| = \dfrac{2 |x|}{3} \leq \dfrac{2}{3} = k < 1$
+$\qquad \mid g^{'}(x) \mid = \dfrac{2 |x|}{3} \leq \dfrac{2}{3} = k < 1$
 
 Logo, $g$ admite um único ponto fixo em $[-1, \ 1]$.
 
@@ -156,7 +156,7 @@ Mostre que o teorema não garante a unicidade de um ponto fixo de $g(x)=3^{-x}$ 
 	
 - como $0<g(x)<g(0)=1$, então $g([0, \ 1]) \subset [0, \ 1]$. O teorema garante a existência de um ponto fixo de $g$ em $[0, \ 1]$;
 	
-- como $g'(0)=-ln(3)<-1$, então $|g'(x)| \nless 1$ em $[0, \ 1]$.
+- como $g'(0)=-ln(3)<-1$, então $\mid g'(x) \mid \nless 1$ em $[0, \ 1]$.
 
 O teorema não garante a unicidade. Entretanto o gráfico mostra a existência de um único ponto fixo de $g$ em $[0, \ 1]$.
 
