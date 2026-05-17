@@ -110,7 +110,7 @@ $\qquad 0 \leq x^2 \leq 1 \Rightarrow -\dfrac{1}{3} \leq \dfrac{x^2-1}{3} \leq 0
 		
 - se $x \in [-1, \ 1]$, então
   
-$\qquad \mid g^{'}(x) \mid = \dfrac{2 |x|}{3} \leq \dfrac{2}{3} = k < 1$
+$\qquad \mid g^{'}(x) \mid = \dfrac{2 \mid x \mid }{3} \leq \dfrac{2}{3} = k < 1$
 
 Logo, $g$ admite um único ponto fixo em $[-1, \ 1]$.
 
