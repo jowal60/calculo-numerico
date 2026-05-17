@@ -258,11 +258,11 @@ $\qquad x^* = \lim\limits_{n\to\infty} x_n = \lim\limits_{n\to\infty} g(x_{n-1})
 
 ---
 
-<b>Definição (Contração)</>
+<b>Definição (Contração)</b>
 
-Uma \textbf{contração} é uma função real $g:[a, \ b] \to [a, \ b]$, tal que
+Uma **contração** é uma função real $g:[a, \ b] \to [a, \ b]$, tal que
 
-$\qquad \mid g(x)-g(y) \mid \leq \beta \mid x-y \mid, \quad 0 \leq \beta < 1, \quad \forall x,y \in [a, \ b].  
+$\qquad \mid g(x)-g(y) \mid \leq \beta \mid x-y \mid, \quad 0 \leq \beta < 1, \quad \forall x,y \in [a, \ b]$.  
 
 ---
 
@@ -278,7 +278,7 @@ Seja $g:[a, \; b] \to [a, \ b]$:
 
 <b>Teorema do Pònto Fixo</b>
 
-Se $g:[a, \; b]\to [a, \; b]$ é uma contração, então existe um único ponto fixo $x^*\in [a, \ b]$, isto é, $g(x^*)= x^*$.
+Se $g:[a, \; b]\to [a, \; b]$ é uma contração, então existe um único ponto fixo $x^* \in [a, \ b]$, isto é, $g(x^*) = x^*$.
 	
 Além disso, a sequência $\{ x_n \}_{n\in\mathbb{N}}$ dada por:
 	
