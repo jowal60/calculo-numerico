@@ -428,20 +428,13 @@ Estes comportamentos são explicados pelo teste da convergência:
 
 Com efeito, sabemos que o ponto fixo destas funções está no intervalo $[1.6, \ 1.8]$ e temos:
 
-$\qquad \mid g_1'(x) \mid = \mid 1 - 0,5(x+1)e^x \mid > 4,8, \quad \forall x \in [1.6, \ 1.8]$,
+$\qquad \mid g_1'(x) \mid = \mid 1 - 0,5(x+1)e^x \mid > 4,8, \quad \forall x \in [1.6, \ 1.8]$ (ponto fixo instável),
+
+<img src="../assets/images/fig_pontofixo8.JPG" alt="Ponto fixo instável" width="400">
 
 enquanto:
 
-$\qquad \mid g_2'(x) \mid = \mid 1 - 0,05(x+1)e^x \mid  < 0,962, \quad \forall x \in [1.6, \ 1.8]$.
+$\qquad \mid g_2'(x) \mid = \mid 1 - 0,05(x+1)e^x \mid  < 0,962, \quad \forall x \in [1.6, \ 1.8]$ (ponto fixo estável).
 
-
-<figure>
-  <img src="../assets/images/fig_pontofixo8.JPG" alt="Ponto fixo instável de g1(x)=x-0.5f(x)">
-  <figcaption>Ponto fixo instável de $g_1(x)=x-0.5f(x)$</figcaption>
-</figure>
-
-<figure>
-  <img src="../assets/images/fig_pontofixo9.JPG" alt="Ponto fixo estável de g1(x)=x-0.05f(x)">
-  <figcaption>Ponto fixo estável de $g_2(x)=x-0.05f(x)$</figcaption>
-</figure>
+<img src="../assets/images/fig_pontofixo9.JPG" alt="Ponto fixo estável" width="400">
 
