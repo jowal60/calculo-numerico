@@ -20,7 +20,7 @@ $p$ é um ponto fixo da função $g$, se e somente se, $g(p)=p$.
 	
   Por exemplo, se $g(x)=x - \alpha f(x)$:
   
-$f(p)=0 \Rightarrow g(p)=p - \alpha f(p)=p - \alpha \cdot 0=p,$
+$\qquad f(p)=0 \Rightarrow g(p)=p - \alpha f(p)=p - \alpha \cdot 0=p,$
 
 $\qquad$ portanto, $g(p)=p$.
 		
@@ -60,7 +60,7 @@ Geometricamente os pontos fixos $x=-1$ e  $x=2$ são as interseções do gráfic
 
 2. Se além mais, $g \in C^1 (a, \ b)$ e existe uma constante $0<k<1$ tal que
    
-$\qquad |g^{'}(x)| \leq k, \ \forall x \in (a, \ b),$
+$\qquad \| g^{'}(x) \| \leq k, \ \forall x \in (a, \ b)$,
 
 então existe um único ponto fixo em $[a, \ b]$.
 
