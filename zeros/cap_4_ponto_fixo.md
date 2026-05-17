@@ -340,7 +340,7 @@ ${} \quad$ retornar x, xp, iter
 
 a) $g([1/2, \ 1]) \subseteq [1/2, \ 1]$;
 	
-b) $|g'(x)|<\beta, \quad 0<\beta<1,\quad \forall x\in [1/2, \ 1]$.
+b) $\mid g'(x) \mid < \beta, \quad 0<\beta<1,\quad \forall x\in [1/2, \ 1]$.
 
 a) $g(x)$ é decrescente no intervalo $[1/2, \; 1]$, logo:
 	
@@ -360,6 +360,7 @@ $\qquad$ Assim, $\mid g'(x) \mid <0,85$, e a desigualdade se verifica com $\beta
 
 De a) e b), temos que o método de iteração de ponto fixo é convergente no intervalo $[1/2, \ 1]$.
 
+<b> Solução do item 2 </b>
 
 
 
