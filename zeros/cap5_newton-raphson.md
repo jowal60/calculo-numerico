@@ -14,3 +14,6 @@ nav_order: 1
 	
 - O processo começa com uma estimativa inicial $x_0$ para a raiz e, através de iterações sucessivas, aprimora esta estimativa.
 
+---
+
+## Aspectos Teóricos do Método de Newton
