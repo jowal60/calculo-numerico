@@ -60,7 +60,7 @@ Geometricamente os pontos fixos $x=-1$ e  $x=2$ são as interseções do gráfic
 
 2. Se além mais, $g \in C^1 (a, \ b)$ e existe uma constante $0<k<1$ tal que
    
-$\qquad |g^{'}(x)| \leq k, \ \forall x \in (a, \ b)$,
+$\qquad |g'(x)| \leq k, \ \forall x \in (a, \ b)$,
 
 $\qquad$ então existe um único ponto fixo em $[a, \ b]$.
 
