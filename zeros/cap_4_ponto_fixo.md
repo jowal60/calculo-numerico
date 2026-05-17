@@ -420,3 +420,20 @@ $x_{n+1} = g(x_n)$ é convergente sempre que $x_0 \in (x^* - \delta, \ x^* + \de
 
 ---
 
+<b>Exemplo</b>
+
+Na determinação das raízes da função $f(x)=xe^x-10$, a função $g_1(x)=x-0.5f(x)$ forneceu uma iteração divergente, enquanto que a função $g_2(x)=x-0.05f(x)$ forneceu uma iteração convergente.
+
+Estes comportamentos são explicados pelo teste da convergência:
+
+Com efeito, sabemos que o ponto fixo destas funções está no intervalo $[1.6, \ 1.8]$ e temos:
+
+$\qquad \mid g_1'(x) \mid = \mid 1 - 0,5(x+1)e^x \mid > 4,8, \quad \forall x \in [1.6, \ 1.8]$,
+
+enquanto:
+
+$\qquad \mid g_2'(x) \mid = \mid 1 - 0,05(x+1)e^x \mid  < 0,962, \quad \forall x \in [1.6, \ 1.8]$.
+
+![ ](../assets/images/fig_pontofixo8.JPG)
+
+![ ](../assets/images/fig_pontofixo9.JPG)
