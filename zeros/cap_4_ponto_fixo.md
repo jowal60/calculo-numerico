@@ -408,4 +408,6 @@ Seja $g:[a, \  b] \to \mathbb{R}$ uma função $C^0[a, \; b]$ e $x^* \in (a, \ b
 Então $x^{\star}$ é dito estável se existe um intervalo $(x^* - \delta, \ x^* + \delta)$ chamado bacia de atração tal que a sequência 
 $x_{n+1} = g(x_n)$ é convergente sempre que $x_0 \in (x^* - \delta, \ x^* + \delta)$.
 
+---
+
 
