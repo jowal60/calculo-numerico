@@ -434,6 +434,16 @@ enquanto:
 
 $\qquad \mid g_2'(x) \mid = \mid 1 - 0,05(x+1)e^x \mid  < 0,962, \quad \forall x \in [1.6, \ 1.8]$.
 
-![ ](../assets/images/fig_pontofixo8.JPG)
 
-![ ](../assets/images/fig_pontofixo9.JPG)
+![Ponto fixo instável de $g_1(x)=x-0.5f(x)$](../assets/images/fig_pontofixo8.JPG)
+
+
+![Ponto fixo estável de $g_2(x)=x-0.05f(x)$](../assets/images/fig_pontofixo9.JPG)
+
+<figure>
+  <img src="../assets/images/fig_pontofixo8.JPG" alt="Ponto fixo instável de g1(x)=x-0.5f(x)">
+  <figcaption>Ponto fixo instável de $g_1(x)=x-0.5f(x)$</figcaption>
+</figure>
+
+
+
