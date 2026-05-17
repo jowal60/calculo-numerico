@@ -107,4 +107,6 @@ portanto, $e_{n+1} \leq C \cdot e_n^2$ com constante $C = \mid g''(x^*)/2 \mid$.
 
 Isto é, o método de Newton tem **taxa de convergência quadrática**.
 
+$\underbrace{abc}_{=x}$
+
 
