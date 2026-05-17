@@ -377,5 +377,22 @@ $\qquad x_0  = 0.7$
 |x[10] = cos(0.74018) = 0.73834  | x[11] = cos(0.73834) = 0.73958 |
 |x[12] = cos(0.73958) = 0.73874 | x[13] = cos(0.73874) = 0.73931 |
 		
+<b> Solução item 3 </b>
 
+O erro é estimado como $\epsilon_n  = \mid x_n - x^* \mid$, onde consideramos $x^* = 0,7390851605$ como o valor exato do ponto fixo.
 
+A taxa de convergência é calculada como $\dfrac{\epsilon_n}{\epsilon_{n+1}}$.
+
+**Erro e taxa de convergência:**
+	
+|$n$ | $x_n$ | $\epsilon_n = \mid x_n-x^* \mid $ | $\frac{\epsilon_n}{\epsilon_{n+1}}$ |
+|--|--|--|--|
+|0 | 0.70000 | 3.9 E-02 | 0.67 |
+|1 | 0.76484 | 2.6 E-02 | 0.69 | 
+|2 | 0.72149 | 1.8 E-02 | 0.67 |
+|3 | 0.75082 | 1.2 E-02 | 0.67 |
+|4 | 0.73113 | 8.0 E-03 | 0.66 | 
+|5 | 0.74442 | 5.3 E-03 | 0.68 |
+|6 | 0.73548 | 3.6 E-03 |      |  
+
+Verifica-se que $\dfrac{\epsilon_n}{\epsilon_{n+1}} < 0.85$.
