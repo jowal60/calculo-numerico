@@ -227,7 +227,6 @@ $\qquad z_{n+1} = g_2(z_n) = z_n - 0.05 f(x_n)$
 $\qquad z_0 = 1.7$
 		
 obtém-se a seguinte tabela com os resultados:
-
 		
 |$n$ | $x_n$ | $z_n$ |
 |--|--|--| 
@@ -362,5 +361,21 @@ De a) e b), temos que o método de iteração de ponto fixo é convergente no in
 
 <b> Solução do item 2 </b>
 
+Iteração de ponto fixo:
+
+$\qquad x_{n+1} = cos(x_n), \quad n \geq 0$
+
+$\qquad x_0  = 0.7$
+
+| | |
+|--|--|
+|x[0] =  0.7  | x[1] = cos(0.70000) = 0.76484|		
+|x[2] = cos(0.76484) = 0.72149 | x[3] = cos(0.72149) = 0.75082| 		
+|x[4] = cos(0.75082) = 0.73113  |  x[5] = cos(0.73113) = 0.74442 |
+|x[6] = cos(0.74442) = 0.73548 | x[7] = cos(0.73548) = 0.74150 |		
+|x[8] = cos(0.74150) = 0.73745 |  x[9] = cos(0.74150) = 0.74018 |
+|x[10] = cos(0.74018) = 0.73834  | x[11] = cos(0.73834) = 0.73958 |
+|x[12] = cos(0.73958) = 0.73874 | x[13] = cos(0.73874) = 0.73931 |
+		
 
 
