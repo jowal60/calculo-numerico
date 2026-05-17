@@ -59,7 +59,7 @@ Geometricamente os pontos fixos $x=-1$ e  $x=2$ são as interseções do gráfic
 <b>Teorema (Existência e Unicidade)</b> 
 
 1. Se $g \in C^0[a, \ b]$ e $g(x) \in [a, \ b]$, então $g$ admite um ponto fixo em $[a, \ b]$;
-	\item
+
 2. Se além mais, $g \in C^1 (a, \ b)$ e existe uma constante $0<k<1$ tal que
    
 	$|g^{'}(x)| \leq k, \; \forall x \in (a, \ b),$
