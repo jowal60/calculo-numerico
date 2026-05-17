@@ -78,3 +78,33 @@ $\qquad x = x_n - \dfrac{f(x_n)}{f'(x_n)}$
 
 com $x=x_{n+1}$.
 
+---
+
+## Convergência
+Pelo teorema do ponto fixo o Método de Newton é convergente numa vizinhança do zero da função. E esta convergência é pelo menos linear.
+
+Por construção, a taxa de convergência é ótima!!!!
+
+Qual é esta taxa de convergência?
+
+A série de Taylor em torno de $x=x^{\star}$:
+
+$\qquad g(x) = \underbrace{g(x^{\star})}_{=x^{\star}} + \underbrace{g'(x^{\star})}_{=0}(x-x^{\star}) + \dfrac{g''(x^{\star})}{2}(x-x^{\star})^2 + O\left((x-x^{\star})^3\right)$
+
+como $g(x^{*})=x^{\star}, \quad g'(x^{\star})=0 $ e considerando $x=x_n$, temos:
+
+$\qquad \underbrace{g(x_n)}_{x_{n+1}} = x^{*} + \dfrac{g''(x^{\star})}{2}(x_n-x^{\star})^2 + O\left((x_n-x^{\star})^3\right)$; 
+
+Com isso, temos:
+
+$\qquad x_{n+1} = g(x_n) =  x^{\star}+ \dfrac{g''(x^{\star})}{2}(x_n-x^{\star})^2 + O\left((x_n-x^{\star})^3\right)$,
+
+Logo,
+
+$\qquad \underbrace{ \left| x_{n+1}-x^{\star} \right|}_{e_{n+1}} \leq  \; C \; \underbrace{ \left|x_n-x^{\star} \right|^2 }_{e_n^2}$,
+
+portanto, $e_{n+1} \leq C \cdot e_n^2$ com constante $C = \left|g''(x^*)/2\right|$.
+
+Isto é, o método de Newton tem **taxa de convergência quadrática**.
+
+
