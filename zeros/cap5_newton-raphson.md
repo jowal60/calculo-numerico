@@ -17,3 +17,10 @@ nav_order: 1
 ---
 
 ## Aspectos Teóricos do Método de Newton
+Seja $x^{\star}$ solução de $f(x)=0$, onde $f \in C^1$.
+
+Associamos à determinação do zero de $f$, a iteração de ponto fixo:
+
+$g(x) = x + \alpha(x)f(x), \quad \alpha(x) \neq 0$,
+
+onde, $\alpha(x)$ é uma função arbitrária.
