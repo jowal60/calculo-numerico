@@ -55,6 +55,7 @@ Geometricamente os pontos fixos $x=-1$ e  $x=2$ são as interseções do gráfic
 ---
 
 <div class="theorem">
+	
 <b>Teorema (Existência e Unicidade)</b> 
 
 1. Se $g \in C^0[a, \ b]$ e $g(x) \in [a, \ b]$, então $g$ admite um ponto fixo em $[a, \ b]$;
@@ -64,6 +65,8 @@ Geometricamente os pontos fixos $x=-1$ e  $x=2$ são as interseções do gráfic
 	$|g^{'}(x)| \leq k, \; \forall x \in (a, \ b),$
 
 então existe um único ponto fixo em $[a, \ b]$.
+
+</div>
 
 ![ ](../assets/images/fig_pontofixo3.JPG)
 
@@ -94,7 +97,6 @@ Por contradição: vamos supor que $p$ e $q$ são dois pontos fixos diferentes, 
 - portanto, $|q-p| < |q-p|$, o qual é uma contradição.
 		
 Conclui-se que existe um único ponto fixo em $[a, \ b]$.
-</div>
 
 ---
 
