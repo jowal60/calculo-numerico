@@ -227,7 +227,8 @@ $$
 \begin{cases}
 x_{n+1} & = g_1(x_n) \\ 
 x_0 & = 1.7 
-\end{cases}$ $\quad \Rightarrow \quad$ $\begin{cases} 
+\end{cases} \quad \Rightarrow \quad 
+\begin{cases} 
 x_{n+1} &= x_n - 0.5 f(x_n) \\
 x_0 &= 1.7 
 \end{cases}
