@@ -216,20 +216,15 @@ $\qquad g_2(p) = p-0.05 f(p) \quad \Rightarrow \quad  p=p-0.05f(p) \quad \Righta
 		
 - Construindo as iterações do ponto fixo:
 
-\begin{aligned} 
-    x & = y_1-y_2+y_3-y_5+y_8-\dots 
-      && \text{by \eqref{ref1}} \\ 
-      & = y'\circ y^* && \text{(by \eqref{ref3})} \\
-      & = y(0)\, y' && \text {by Axiom 1.} 
-  \end{aligned} 
 
-$\begin{matrix} 
+
+$\begin{array}{c}
 x_{n+1} &= g_1(x_n) \\ 
 x_0 &= 1.7 
 \end{matrix}$ $\quad \Rightarrow \quad$ $\begin{matrix} 
 x_{n+1} &= x_n - 0.5 f(x_n) \\
 x_0 &= 1.7 
-\end{matrix}$
+\end{array}$
 
 
 e
