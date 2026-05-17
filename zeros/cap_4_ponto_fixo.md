@@ -403,11 +403,20 @@ Verifica-se que $\dfrac{\epsilon_n}{\epsilon_{n+1}} < 0.85$.
 
 <b>Definição (Ponto fixo estável)</b>
 
-Seja $g:[a, \  b] \to \mathbb{R}$ uma função $C^0[a, \; b]$ e $x^* \in (a, \ b)$ um ponto fixo de $g$.
+Seja $g:[a, \  b] \to \mathbb{R}$ uma função $C^0[a, \ b]$ e $x^* \in (a, \ b)$ um ponto fixo de $g$.
 
 Então $x^{\star}$ é dito estável se existe um intervalo $(x^* - \delta, \ x^* + \delta)$ chamado bacia de atração tal que a sequência 
 $x_{n+1} = g(x_n)$ é convergente sempre que $x_0 \in (x^* - \delta, \ x^* + \delta)$.
 
 ---
 
+<b>Teorema (Teste de convergência)</b>
+
+- Se $g\in C^1[a, \ b]$ e $\mid g'(x^*) \mid < 1$, então $x^{\star}$ é estável;
+	
+- Se $\mid g'(x^*) \mid > 1$, então $x^{\star}$ é instável; e
+	
+- o teste é inconclusivo quando $\mid g'(x^*) \mid = 1$.
+
+---
 
