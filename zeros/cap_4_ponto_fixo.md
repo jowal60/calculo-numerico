@@ -220,7 +220,7 @@ $\qquad x_{n+1} = g_1(x_n) = x_n - 0.5 f(x_n)$
 
 $\qquad x_0 = 1.7 $
 
-e
+$\qquad$ e
 
 $\qquad z_{n+1} = g_2(z_n) = z_n - 0.05 f(x_n)$
 
@@ -229,23 +229,14 @@ $\qquad z_0 = 1.7$
 obtém-se a seguinte tabela com os resultados:
 
 		
-\begin{center}
-			\begin{tabular}{|c|c|c|}
-			\hline 
-			$n$ & $x_n$ & $z_n$ \\ 
-			\hline 
-			0 & 1.700 & 1.700 \\ 
-			\hline 
-			1 & 2.047 & 1.735 \\ 
-			\hline 
-			2 & -0.8812 & 1.743 \\ 
-			\hline 
-			3 & 4.3013 & 1.746 \\ 
-			\hline 
-			4 & -149.4 & 1.746 \\ 
-			\hline 
-		\end{tabular} 
-\end{center}
+|$n$ | $x_n$ | $z_n$ |
+|-----|------|---------| 
+|0 | 1.700 | 1.700|
+|1 | 2.047 | 1.735| 
+|2 | -0.8812 | 1.743| 
+|3 | 4.3013 | 1.746| 
+|4 | -149.4 | 1.746| 
+
 
 A sequência $x_n$ é divergente, enquanto a sequência $z_n$ é convergente.
 
