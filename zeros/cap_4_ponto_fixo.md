@@ -216,44 +216,20 @@ $\qquad g_2(p) = p-0.05 f(p) \quad \Rightarrow \quad  p=p-0.05f(p) \quad \Righta
 		
 - Construindo as iterações do ponto fixo:
 
-$$
-f(x) = \begin{cases}
-x^2 & \text{if } x \geq 0 \\
--x^2 & \text{if } x < 0
-\end{cases}
-$$
+$\qquad x_{n+1} = g_1(x_n) = x_n - 0.5 f(x_n)$
 
-$$
-\begin{cases}
-x_{n+1} & = g_1(x_n) \\ 
-x_0 & = 1.7 
-\end{cases} \quad \Rightarrow \quad 
-\begin{cases} 
-x_{n+1} &= x_n - 0.5 f(x_n) \\
-x_0 &= 1.7 
-\end{cases}
-$$
-
+$\qquad x_0 = 1.7 $
 
 e
-		\[
-		\left\\{
-		\begin{matrix}
-			z_{n+1} = g_2(z_n) \\
-			z_0 = 1.7
-		\end{matrix}
-		\right.
-		\Rightarrow
-		\left\{
-		\begin{matrix}
-			z_{n+1} = z_n - 0.05 f(x_n) \\
-			z_0 = 1.7
-		\end{matrix}
-		\right.
-		\]
-		obtém-se a seguinte tabela com os resultados:
-		\vskip0.2cm
-		\begin{center}
+
+$\qquad z_{n+1} = g_2(z_n) = z_n - 0.05 f(x_n)$
+
+$\qquad z_0 = 1.7$
+		
+obtém-se a seguinte tabela com os resultados:
+
+		
+\begin{center}
 			\begin{tabular}{|c|c|c|}
 			\hline 
 			$n$ & $x_n$ & $z_n$ \\ 
@@ -269,8 +245,8 @@ e
 			4 & -149.4 & 1.746 \\ 
 			\hline 
 		\end{tabular} 
-		\end{center}
-		A sequência $x_n$ é divergente, enquanto a sequência 
-		$z_n$ é convergente.
-\end{itemize}
+\end{center}
+
+A sequência $x_n$ é divergente, enquanto a sequência $z_n$ é convergente.
+
 
