@@ -89,7 +89,7 @@ Qual é esta taxa de convergência?
 
 A série de Taylor em torno de $x=x^{\star}$:
 
-$\qquad g(x) = \underbrace{g(x^{\star})}_{=x^{\star}} + \underbrace{g'(x^{\star})}_{=0}(x-x^{\star}) + \dfrac{g^{''}(x^{\star})}{2}(x-x^{\star})^2 + O((x-x^{\star})^3)$
+$\qquad g(x) = \underbrace{g ( x^{\star} ) }_{= x^{\star}} + \underbrace{g' ( x^{\star}) }_{=0} (x-x^{\star}) + \dfrac{g^{''} (x^{\star}) }{2} (x-x^{\star})^2 + O((x-x^{\star} )^3 )$
 
 como $g(x^{\star}) = x^{\star}, \quad g'(x^{\star})=0$ e considerando $x=x_n$, temos:
 
