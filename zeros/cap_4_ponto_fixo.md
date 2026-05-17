@@ -396,3 +396,16 @@ A taxa de convergência é calculada como $\dfrac{\epsilon_n}{\epsilon_{n+1}}$.
 |6 | 0.73548 | 3.6 E-03 |      |  
 
 Verifica-se que $\dfrac{\epsilon_n}{\epsilon_{n+1}} < 0.85$.
+
+![ ](../assets/images/fig_pontofixo7.JPG)
+
+---
+
+<b>Definição (Ponto fixo estável)</b>
+
+Seja $g:[a, \  b] \to \mathbb{R}$ uma função $C^0[a, \; b]$ e $x^* \in (a, \ b)$ um ponto fixo de $g$.
+
+Então $x^{\star}$ é dito estável se existe um intervalo $(x^* - \delta, \ x^* + \delta)$ chamado bacia de atração tal que a sequência 
+$x_{n+1} = g(x_n)$ é convergente sempre que $x_0 \in (x^* - \delta, \ x^* + \delta)$.
+
+
