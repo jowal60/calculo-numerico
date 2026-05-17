@@ -230,7 +230,7 @@ obtém-se a seguinte tabela com os resultados:
 
 		
 |$n$ | $x_n$ | $z_n$ |
-|-----|------|---------| 
+|--|--|--| 
 |0 | 1.700 | 1.700|
 |1 | 2.047 | 1.735| 
 |2 | -0.8812 | 1.743| 
@@ -288,7 +288,41 @@ converge para $x^*$ para qualquer $x_0 \in [a, b]$.
 
 ---
 
+<b>Observação</b>
 
+- Do teorema do ponto fixo, temos que se $g$ é uma contração com constante $0 \leq \beta < 1$, então:
+		
+$\qquad \mid x_{n+1} -x^* \mid \leq \beta \mid x_n -x^* \mid,\quad n\geq 0$;
+		
+- Isto é, as iterações do ponto fixo têm taxa de convergência linear;
+	
+- "Quanto menor for o $\beta$, a convergência é mais rápida".
+
+---
+
+<b>Pseudo-código </b>
+
+função pontofixo  $(f,  \ x0 , \ tol= 10^{-5}, \ maxiter=100)$: 
+
+${} \quad$  erro = 1 
+
+${} \quad$  iter = 0 
+
+${} \quad$  xp = [] 
+
+${} \quad$  enquanto $(erro > tol \ \text{e} \ iter < maxiter)$: 
+
+${} \qquad x=f(x0)$ 
+
+${} \qquad erro = \| x_0-x \|$ 
+
+${} \qquad x0 = x$ 
+
+${} \qquad xp[iter] = x0$ 
+
+${} \qquad iter = iter + 1$ 
+
+${} \quad$ retornar x, xp, iter
 
 
 
