@@ -252,11 +252,42 @@ Em geral, deve-se responder às seguintes questões:
 		
 $\qquad$ A resposta é na afirmativa:
 	
-$\quuad x^* = \lim\limits_{n\to\infty} x_n = \lim\limits_{n\to\infty} g(x_{n-1}) = g \left( \lim\limits_{n\to\infty} x_{n-1} \right) = g(x^*)$.
+$\qquad x^* = \lim\limits_{n\to\infty} x_n = \lim\limits_{n\to\infty} g(x_{n-1}) = g \left( \lim\limits_{n\to\infty} x_{n-1} \right) = g(x^*)$.
 	
 - Caso seja convergente, qual é a taxa de convergência?
 
 ---
+
+<b>Definição (Contração)</>
+
+Uma \textbf{contração} é uma função real $g:[a, \ b] \to [a, \ b]$, tal que
+
+$\qquad \mid g(x)-g(y) \mid \leq \beta \mid x-y \mid, \quad 0 \leq \beta < 1, \quad \forall x,y \in [a, \ b].  
+
+---
+
+<b>Observação</b>
+
+Seja $g:[a, \; b] \to [a, \ b]$:
+
+- Se $g(x)$ é uma contração, então $g(x)$ é uma função contínua;
+	
+- Se $\mid g'(x) \mid < k, \ \ 0 < k < 1$, para todo $x \in [a, \ b]$, então $g(x)$ é uma contração.
+
+---
+
+<b>Teorema do Pònto Fixo</b>
+
+Se $g:[a, \; b]\to [a, \; b]$ é uma contração, então existe um único ponto fixo $x^*\in [a, \ b]$, isto é, $g(x^*)= x^*$.
+	
+Além disso, a sequência $\{ x_n \}_{n\in\mathbb{N}}$ dada por:
+	
+$\qquad x_{n+1} = g(x_n), \quad n \geq 0$$
+	
+converge para $x^*$ para qualquer $x_0 \in [a, b]$.
+
+---
+
 
 
 
