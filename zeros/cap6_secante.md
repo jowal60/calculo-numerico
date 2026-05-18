@@ -62,6 +62,24 @@ $\qquad \qquad$ com condições iniciais $x_0$ e $x_1$.
 	
 - O método das secantes, está relacionado às retas secantes da função $f$.
 
+<img src="../assets/images/fig_secante1.JPG" alt="secante 1" width="400">
 
+---
+
+## Convergência do método da secante
+
+<b>Teorema</b>
+
+Para condições iniciais suficientemente próximas de $x^{\star}$, onde $f(x^{\star})=0$, temos:
+
+$\qquad \mid x_{n+1} - x^{\star} \mid   \leq C \cdot \mid x_n - x^{\star} \mid^{p}$
+
+onde, 
+
+$\qquad p=\dfrac{\sqrt{5}+1}{2}\approx 1.618$.
+
+Ou seja, o método da secante tem  **taxa de convergência superlinear**.
+
+---
 
 
