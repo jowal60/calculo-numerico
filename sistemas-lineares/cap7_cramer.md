@@ -36,19 +36,19 @@ $$
     a_{21} & a_{22} & \cdots & a_{2n} \\
     \vdots & \vdots & \vdots & \vdots\\
     a_{n1} & a_{n2} & \dots  & a_{nn}
-\end{bmatrix}}_{A} \ \ \
+\end{bmatrix}}\_{A} \ \ \
 \underbrace{\begin{bmatrix}
     x_{1} \\
     x_{2} \\
     \vdots \\
     x_{n}
-\end{bmatrix}}_{x}
+\end{bmatrix}}\_{x}
 = \underbrace{\begin{bmatrix}
     b_{1} \\
     b_{2} \\
     \vdots \\
     b_{n}
-\end{bmatrix}}_{b}
+\end{bmatrix}}\_{b}
 $$
 
 $$
