@@ -36,14 +36,12 @@ $$
     a_{21} & a_{22} & \cdots & a_{2n} \\
     \vdots & \vdots & \vdots & \vdots\\
     a_{n1} & a_{n2} & \dots  & a_{nn}
-\end{bmatrix} \ \ \
-\begin{bmatrix}
+\end{bmatrix} \begin{bmatrix}
     x_{1} \\
     x_{2} \\
     \vdots \\
     x_{n}
-\end{bmatrix}
-= \begin{bmatrix}
+\end{bmatrix} = \begin{bmatrix}
     b_{1} \\
     b_{2} \\
     \vdots \\
