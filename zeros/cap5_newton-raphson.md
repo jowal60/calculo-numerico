@@ -264,4 +264,125 @@ f(raiz) = 1.6169066086035855e-11
 
 ---
 
+## Comportamento do método de Newton-Raphson em uma raiz múltipla
+Considere uma função $f$ que possui uma raiz de multiplicidade $m \ge 2$ em $\alpha$. Isso significa que:
 
+$\qquad f(\alpha) = 0, \qquad f'(\alpha) = 0, \qquad \dots, \qquad f^{(m-1)}(\alpha) = 0, \qquad f^{(m)}(\alpha) \neq 0$.
+
+O método de Newton--Raphson é dado por:
+
+$\qquad x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$.
+
+Quando a raiz tem multiplicidade $m$, a convergência deixa de ser quadrática e passa a ser **linear**. Mais precisamente, vale a aproximação:
+
+$\qquad x_{n+1} - \alpha \approx \left(1 - \frac{1}{m}\right)(x_n - \alpha)$.
+
+No caso particular de uma **raiz dupla** ($m = 2$), temos:
+
+$\qquad x_{n+1} - \alpha \approx \frac{1}{2}(x_n - \alpha)$,
+
+o que mostra que a convergência é linear com razão $\dfrac{1}{2}$.
+
+---
+
+<b>Exemplo</b>
+
+Considere a função
+
+$\qquad f(x) = (x - 1)^2$.
+
+Então:
+
+$\qquad f'(x) = 2(x - 1)$,
+
+e o método de Newton produz:
+
+$\qquad x_{n+1} = x_n - \frac{(x_n - 1)^2}{2(x_n - 1)} = \dfrac{x_n + 1}{2}$.
+
+Essa iteração converge para $1$, mas apenas de forma linear.
+
+**orreção do método**:
+
+Se a multiplicidade $m$ da raiz é conhecida, pode-se usar a versão modificada:
+
+$\qquad x_{n+1} = x_n - m \dfrac{f(x_n)}{f'(x_n)}$,
+
+que restaura a convergência quadrática.
+
+---
+
+<b>Teorema</b>
+
+Seja $f$ uma função suficientemente diferenciável e suponha que $\alpha$ é uma raiz de multiplicidade $m \ge 2$, isto é,
+
+$\qquad f(x) = (x-\alpha)^m g(x)$,
+
+onde $g$ é suave e $g(\alpha) \neq 0$. Considere o método de Newton \emph{modificado}:
+
+$\qquad x_{n+1} = x_n - m \dfrac{f(x_n)}{f'(x_n)}$.
+
+Então, para $x_0$ suficientemente próximo de $\alpha$, a sequência $(x_n)$ converge para $\alpha$ com **convergência quadrática**.
+
+<b>Demonstração</b>
+
+Escrevemos
+
+$\qquad f(x) = (x-\alpha)^m g(x), \quad \text{com } g(\alpha) \neq 0$.
+
+Então
+
+$\qquad f'(x) = m(x-\alpha)^{m-1} g(x) + (x-\alpha)^m g'(x) = (x-\alpha)^{m-1} \bigl[ m g(x) + (x-\alpha) g'(x) \bigr]$.
+
+Logo, para $x \neq \alpha$,
+
+$\qquad \dfrac{f(x)}{f'(x)} = \frac{(x-\alpha)^m g(x)}{(x-\alpha)^{m-1} \bigl[ m g(x) + (x-\alpha) g'(x) \bigr]} = \frac{(x-\alpha) g(x)}{m g(x) + (x-\alpha) g'(x)}$.
+
+No método de Newton modificado,
+
+$x_{n+1} = x_n - m \frac{f(x_n)}{f'(x_n)}$,
+
+portanto
+
+$x_{n+1} - \alpha = x_n - \alpha - m \frac{f(x_n)}{f'(x_n)}$.
+
+Substituindo a expressão de $\dfrac{f(x_n)}{f'(x_n)}$, obtemos
+
+$\qquad x_{n+1} - \alpha = (x_n - \alpha) - m \cdot \dfrac{(x_n-\alpha) g(x_n)}{m g(x_n) + (x_n-\alpha) g'(x_n)}$.
+
+Fatorando $(x_n - \alpha)$:
+
+$\qquad x_{n+1} - \alpha = (x_n - \alpha) \left[ 1 - \dfrac{m g(x_n)}{m g(x_n) + (x_n-\alpha) g'(x_n)} \right]$.
+
+Colocando tudo no mesmo denominador:
+
+$\qquad x_{n+1} - \alpha = (x_n - \alpha) \cdot \dfrac{m g(x_n) + (x_n-\alpha) g'(x_n) - m g(x_n)} {m g(x_n) + (x_n-\alpha) g'(x_n)}$.
+
+Simplificando o numerador:
+
+$\qquad x_{n+1} - \alpha = (x_n - \alpha) \cdot \dfrac{(x_n-\alpha) g'(x_n)} {m g(x_n) + (x_n-\alpha) g'(x_n)}$.
+
+Logo,
+
+$\qquad x_{n+1} - \alpha = (x_n - \alpha)^2 \cdot \dfrac{g'(x_n)} {m g(x_n) + (x_n-\alpha) g'(x_n)}$.
+
+Agora, como $g$ é suave e $g(\alpha) \neq 0$, temos, para $x_n$ próximo de $\alpha$,
+
+$\qquad g(x_n) \to g(\alpha), \qquad g'(x_n) \to g'(\alpha)$,
+
+e, em particular, o denominador
+
+$\qquad m g(x_n) + (x_n-\alpha) g'(x_n) \to m g(\alpha) \neq 0$.
+
+Portanto, existe uma constante $C$ tal que, para $x_n$ suficientemente próximo de $\alpha$,
+
+$\qquad x_{n+1} - \alpha = C (x_n - \alpha)^2 + o\bigl((x_n-\alpha)^2\bigr)$,
+
+com
+
+$\qquad C = \dfrac{g'(\alpha)}{m g(\alpha)}$.
+
+Isso mostra que o erro satisfaz
+
+$\qquad \mid x_{n+1} - \alpha \mid \approx K \mid x_n - \alpha \mid^2$,
+
+para alguma constante $K > 0$, caracterizando **convergência quadrática**.  $\Box$
