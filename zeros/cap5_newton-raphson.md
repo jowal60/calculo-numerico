@@ -202,3 +202,66 @@ f(raiz) = -1.949551631241775e-13.
 
 <img src="../assets/images/fig_newton4.JPG" alt="newton 4" width="600">
 
+---
+
+<b>Exemplo</b>
+
+Considere o método de Newton para encontrar a raiz de 
+
+$\qquad f(x)=x+sen(2x)+1$;
+
+a) O que acontece quando $x_0=3$?
+
+b) Escolha um valor adequado para inicializar o método e obter a única raiz real desta equação.
+
+<b>Solução do item a)</b>
+
+$\qquad f(x) = x + sen(2x) + 1$
+
+$\qquad	f'(x) = 1+2cos(2x)$
+
+$\qquad	x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)} = x_n - \dfrac{x_n + sen(2x_n)+1}{1+2cos(2x_n)}$
+
+$\qquad x_0 = 3$
+
+**Resultados** com tolerâcia $10^{-6}$:
+
+|$i$ | $x_i$ | $f(x_i)$|
+|--|--|--|
+|0 | 3 | 3.720584501801074|
+|1 | 1.72598 | 2.4205753276617523|
+|2 | 4.40228 | 5.983494353730372|
+|3 | 13.93777 | 15.32607391512783|
+|4 | 32.11675 | 34.10247448437865|
+|5 | 6.60429 | 8.20326897230026|
+
+- Problemas na convergência!!!;
+
+- A função $f$ tem um máximo em $x=\pi/3 \approx 1,04$ e um mínimo em $x=2 \pi/3 \approx 2,09$;
+
+- A condição inicial está à direita do mínimo e a raiz esta a esquerda do máximo, e portanto pode aparecer uma divisão por zero criando uma condição de overflow.
+
+<img src="../assets/images/fig_newton5.JPG" alt="newton 5" width="400">
+
+<b>Solução b)</b>
+
+Considerando a condição inicial $x_0=0,5$, resulta:
+
+|$i$ | $x_i$ | $f(x_i)$|
+|--|--|--|
+|0 | 0.5 | 2.3414709848078967|
+|1 | -0.62538 | 0.5746041209135029|
+|2 | -0.27269 | 0.20856835228937398|
+|3 | -0.34966 | 0.006652864696707672|
+|4 | -0.35228 | 8.916430764838168e-06|
+|5 | -0.35228 | 1.6169066086035855e-11|
+
+raiz = -0.35228.
+
+f(raiz) = 1.6169066086035855e-11
+
+<img src="../assets/images/fig_newton6.JPG" alt="newton 6" width="400">
+
+---
+
+
