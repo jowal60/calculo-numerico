@@ -103,12 +103,102 @@ Logo,
 
 $\qquad \underbrace{ \mid x_{n+1}-x^{\star} \mid }\_{e_{n+1}} \leq  \ C \ \underbrace{ \mid x_n-x^{\star} \mid^2 }\_{e_n^2}$,
 
-portanto, $e_{n+1} \leq C \cdot e_n^2$ com constante $C = \mid g''(x^*)/2 \mid$.
+portanto, $e_{n+1} \leq C \cdot e_n^2$ com constante $C = \mid g^{''}(x^*)/2 \mid$.
 
 Isto é, o método de Newton tem **taxa de convergência quadrática**.
 
 ---
 
+<b>Exemplo</b>
+
+Encontre a raiz positiva da função 
+	
+$\qquad f(x)=cos(x)-x^2$
+	
+pelo método de Newton inicializando-o com $x_0=1$, e uma tolerância de $10^{-6}$.
+
+<b>Solução</b>
+
+Temos:
+	
+$\qquad f(x) = cos(x) - x^2$
+
+$\qquad f'(x) = -sen(x) - 2x$
+
+logo, tem-se o método iterativo de Newton:
+
+$x_{n+1} =  x_n - \dfrac{f(x_n)}{f'(x_n)} = x_n - \dfrac{cos(x_n)-x_n^2}{-sen(x_n)-2x_n}$
+
+$x_0 = 1$
+
+**Resultado** com tolerância de $10^{-6}$:
+	
+|$i$ | $x_i$ | $f(x_i)$|
+|--|--|--|
+|0 | 1.000000 | -0.45969769413186023|
+|1 | 0.838218 | -0.03382168804094854|
+|2 | 0.824241 | -0.0002610027576273044|
+|3 | 0.824132 | -1.6076211473148305e-08|
+|4 | 0.824132 | -2.220446049250313e-16|
+
+portanto, raiz = 0.824132 e f(raiz) = -1.6076211473148305e-08.
+
+<img src="../assets/images/fig_newton2.JPG" alt="newton 2" width="400">
+
+---
+
+<b>Exemplo</b>
+
+Considere o método de Newton para encontrar a raiz de 
+
+$\qquad f(x)=x^3-2x+2$.
+
+a) O que acontece quando $x_0=0$?
+	
+b) Escolha um valor adequado para inicializar o método e obter a única raiz real desta equação.
+
+<b>Solução do item a)</b>
+
+Temos 
+	
+$\qquad f(x) = x^3-2x+2$
+
+$\qquad f'(x) = 3x^2-2$
+
+$\qquad x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)} = x_n - \dfrac{x_n^3-2x_n+2}{3x_n^2-2}$
+
+$\qquad x_0 = 0$
+	
+**Resultados** com tolerância de $10^{-6}$:
+	
+|$i$ | 0 | 1 | 2 |3 |4 | 5|
+|--|--|--|--|--|--|--|
+|$x_i$ | 0 | 1 | 0 | 1 | 0 | 1|
+|$f(x_i)$ | 2 | 1 | 2 | 1 | 2 | 1| 
+
+Comportamento oscilatório!!! Não convergente!!!
+	
+Como $f^{''}(x)=6x$ tem-se que $f''(0)=0$, portanto, $x_0=0$ é ponto de inflexão de $f$.
+
+<img src="../assets/images/fig_newton3.JPG" alt="newton 3" width="400">
 
 
+<b>Solução do item b)</b>
+
+Considerando $x_0=-2.5$, obtém-se convergência como mostra a seguinte tabela:
+
+|$i$ | $x_i$ | $f(x_i)$|
+|--|--|--|
+|0 | -2.50000 | -8.625|
+|1 | -1.98507 | -1.8520795443588471|
+|2 | -1.7965 | -0.20506033402315094|
+|3 | -1.76981 | -0.0038210113695398285|
+|4 | -1.76929 | -1.4167370148143732e-06|
+|5 | -1.76929 | -1.949551631241775e-13|
+
+raiz = -1.76929.
+	
+f(raiz) = -1.949551631241775e-13.
+
+<img src="../assets/images/fig_newton4.JPG" alt="newton 4" width="600">
 
