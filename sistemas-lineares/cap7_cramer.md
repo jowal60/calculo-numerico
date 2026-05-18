@@ -28,6 +28,87 @@ $\qquad \vdots  \qquad \quad \vdots    \qquad \quad  \vdots  \qquad \qquad \quad
 
 $\qquad a_{n1} x_1 + a_{n2} x_2 + a_{n3} x_3 + \cdots + a_{nn} x_n = b_n$
 
+Na forma matricial o sistema é escrito como:
 
+$$
+\underbrace{\begin{bmatrix}
+    a_{11} & a_{12} & \cdots & a_{1n} \\
+    a_{21} & a_{22} & \cdots & a_{2n} \\
+    \vdots & \vdots & \vdots & \vdots\\
+    a_{n1} & a_{n2} & \dots  & a_{nn}
+\end{bmatrix}}_{A} \ \ \
+\underbrace{\begin{bmatrix}
+    x_{1} \\
+    x_{2} \\
+    \vdots \\
+    x_{n}
+\end{bmatrix}}_{x}
+= \underbrace{\begin{bmatrix}
+    b_{1} \\
+    b_{2} \\
+    \vdots \\
+    b_{n}
+\end{bmatrix}}_{b}
+$$
+
+$$
+\underbrace{\begin{bmatrix}
+    a_{11} & a_{12} & \cdots & a_{1n} \\
+    a_{21} & a_{22} & \cdots & a_{2n} \\
+    \vdots & \vdots & \vdots & \vdots\\
+    a_{n1} & a_{n2} & \dots  & a_{nn}
+\end{bmatrix}}_{A}
+\underbrace{\begin{bmatrix}
+    x_{1} \\
+    x_{2} \\
+    \vdots \\
+    x_{n}
+\end{bmatrix}}_{x}
+=
+\underbrace{\begin{bmatrix}
+    b_{1} \\
+    b_{2} \\
+    \vdots \\
+    b_{n}
+\end{bmatrix}}_{b}
+$$
+
+
+$\left[ 
+\begin{cases} 
+xx \\ 
+yy 
+\end{cases}
+\right]$
+
+$\begin{bmatrix} a_{11} & a_{12} & \cdots & a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \vdots & \vdots\\ a_{n1} & a_{n2}  & \dots  & a_{nn} \end{bmatrix}$
+
+\[
+{} \underbrace{
+	\begin{bmatrix}
+		a_{11} & a_{12} & \cdots & a_{1n} \\
+		a_{21} & a_{22} & \cdots & a_{2n} \\
+		\vdots & \vdots & \vdots & \vdots\\
+		a_{n1} & a_{n2}  & \dots  & a_{nn}
+	\end{bmatrix}
+}_{A}
+\underbrace{
+	\begin{bmatrix}
+		x_{1} \\
+		x_{2} \\
+		\vdots \\
+		x_{n}
+	\end{bmatrix}
+}_{x}
+=
+\underbrace{ 
+	\begin{bmatrix}
+		b_{1} \\
+		b_{2} \\
+		\vdots \\
+		b_{n}
+	\end{bmatrix}
+}_{b}
+\]
 
 	
