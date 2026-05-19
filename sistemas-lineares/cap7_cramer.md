@@ -164,3 +164,126 @@ $$
 -x_1 + 2 x_2 + 3 x_3  &= 11
 \end{matrix}	
 $$
+
+<b>Solução</b>
+
+$$
+D_1 = 
+\begin{vmatrix}
+4 & 3 & -2 \\
+1 & -4 & 1 \\
+11 & 2 & 3 \\
+\end{vmatrix} =
+4 \cdot 
+\begin{vmatrix}
+-4 & 1 \\
+2 & 3
+\end{vmatrix}
+-3 \cdot 
+\begin{vmatrix}
+1 & 1 \\
+11 & 3
+\end{vmatrix} 
+-2 \cdot
+\begin{vmatrix}
+1 & -4 \\
+11 & 2
+\end{vmatrix}
+$$
+
+$$
+D_1	= 4 \cdot (-14) -3 \cdot (-8) -2 \cdot 46 = -56 + 24 - 92 =  -124 \Rightarrow \boxed{D_1=-124}
+$$
+
+$$
+D_2 = 
+\begin{vmatrix}
+2 & 4 & -2 \\
+3 & 1 & 1 \\
+-1 & 11 & 3 \\
+\end{vmatrix} =
+2 \cdot 
+\begin{vmatrix}
+1 & 1 \\
+11 & 3
+\end{vmatrix}
+-4 \cdot 
+\begin{vmatrix}
+3 & 1 \\
+-1 & 3
+\end{vmatrix} 
+-2 \cdot
+\begin{vmatrix}
+3 & 1 \\
+-1 & 11
+\end{vmatrix}
+$$
+
+$$
+D_2 = 2 \cdot (-8) -4 \cdot (10) -2 \cdot 34 = -16 -40 -68 = -124 \Rightarrow \boxed{D_2 = 124}
+$$
+
+$$
+D_3 = 
+\begin{vmatrix}
+2 & 3 & 4 \\
+3 & -4 & 1 \\
+-1 & 2 & 11 \\
+\end{vmatrix} =
+2 \cdot 
+\begin{vmatrix}
+-4 & 1 \\
+2 & 11
+\end{vmatrix}
+-3 \cdot 
+\begin{vmatrix}
+3 & 1 \\
+-1 & 11
+\end{vmatrix} 
++4 \cdot
+\begin{vmatrix}
+3 & -4 \\
+-1 & 2
+\end{vmatrix}
+$$
+
+
+		D_3 &= 2 \cdot (-46) -3 \cdot (34) +4 \cdot 2 
+		= -92 -102 + 8 
+		= -186
+		\Rightarrow \boxed{D_3=-186} \\
+		& \\
+		D &= \begin{vmatrix}
+			2 & 3 & -2 \\
+			3 & -4 & 1 \\
+			-1 & 2 & 3 \\
+		\end{vmatrix} 
+		=
+		2 \cdot 
+		\begin{vmatrix}
+			-4 & 1 \\
+			2 & 3
+		\end{vmatrix}
+		-3 \cdot 
+		\begin{vmatrix}
+			3 & 1 \\
+			-1 & 3
+		\end{vmatrix} 
+		-2 \cdot\begin{vmatrix}
+			3 & -4 \\
+			-1 & 2
+		\end{vmatrix}
+		\\
+		D &= 2 \cdot (-14) -3 \cdot 10 -2 \cdot 2 
+		= -28 - 30 - 4 
+		= -62
+		\Rightarrow \boxed{D=-62}
+	\end{align*}	
+	logo,
+	\begin{align*}
+		x_1 &= \dfrac{D_1}{D} = \dfrac{-124}{-62} = 2 \\
+		& \\
+		x_2 &= \dfrac{D_2}{D} = \dfrac{-124}{-62} = 2 \\
+		& \\
+		x_3 &= \dfrac{D_3}{D} = \dfrac{-186}{-62} = 3
+	\end{align*}
