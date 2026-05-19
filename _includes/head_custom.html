@@ -1,8 +1,13 @@
+<!-- Configuração do MathJax -->
 <script>
 window.MathJax = {
   tex: {
-    inlineMath: [['$', '$']],
-    displayMath: [['$$', '$$']],
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\
+
+\[', '\\]
+
+']],
     packages: {'[+]': ['ams']}
   },
   svg: {
@@ -11,6 +16,7 @@ window.MathJax = {
 };
 </script>
 
-<script defer
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg-full.js"></script>
+<!-- Carrega a versão completa do MathJax -->
+<script defer id="MathJax-script"
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg-full.js">
 </script>
