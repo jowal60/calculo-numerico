@@ -26,10 +26,3 @@ just_the_docs:
     sistemas-lineares:
       name: "Sistemas Lineares"
   math: true
-
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  math_engine_opts:
-    preview: false
-  math_delimiters: 'dollars'
