@@ -247,43 +247,128 @@ D_3 =
 \end{vmatrix}
 $$
 
+$$
+D_3 = 2 \cdot (-46) -3 \cdot (34) +4 \cdot 2 = -92 -102 + 8 = -186 \Rightarrow \boxed{D_3= -186}
+$$
 
-		D_3 &= 2 \cdot (-46) -3 \cdot (34) +4 \cdot 2 
-		= -92 -102 + 8 
-		= -186
-		\Rightarrow \boxed{D_3=-186} \\
-		& \\
-		D &= \begin{vmatrix}
-			2 & 3 & -2 \\
-			3 & -4 & 1 \\
-			-1 & 2 & 3 \\
-		\end{vmatrix} 
-		=
-		2 \cdot 
-		\begin{vmatrix}
-			-4 & 1 \\
-			2 & 3
-		\end{vmatrix}
-		-3 \cdot 
-		\begin{vmatrix}
-			3 & 1 \\
-			-1 & 3
-		\end{vmatrix} 
-		-2 \cdot\begin{vmatrix}
-			3 & -4 \\
-			-1 & 2
-		\end{vmatrix}
-		\\
-		D &= 2 \cdot (-14) -3 \cdot 10 -2 \cdot 2 
-		= -28 - 30 - 4 
-		= -62
-		\Rightarrow \boxed{D=-62}
-	\end{align*}	
-	logo,
-	\begin{align*}
-		x_1 &= \dfrac{D_1}{D} = \dfrac{-124}{-62} = 2 \\
-		& \\
-		x_2 &= \dfrac{D_2}{D} = \dfrac{-124}{-62} = 2 \\
-		& \\
-		x_3 &= \dfrac{D_3}{D} = \dfrac{-186}{-62} = 3
-	\end{align*}
+$$
+D = 
+\begin{vmatrix}
+2 & 3 & -2 \\
+3 & -4 & 1 \\
+-1 & 2 & 3 \\
+\end{vmatrix} =
+2 \cdot 
+\begin{vmatrix}
+-4 & 1 \\
+2 & 3
+\end{vmatrix}
+-3 \cdot 
+\begin{vmatrix}
+3 & 1 \\
+-1 & 3
+\end{vmatrix} 
+-2 \cdot
+\begin{vmatrix}
+3 & -4 \\
+-1 & 2
+\end{vmatrix}
+$$
+
+$$
+D = 2 \cdot (-14) -3 \cdot 10 -2 \cdot 2 = -28 -30 -4 = -62 \Rightarrow \boxed{D=-62}
+$$
+
+logo,
+
+$$
+\begin{aligned}
+x_1 &= \dfrac{D_1}{D} = \dfrac{-124}{-62} = 2 \\
+& \\
+x_2 &= \dfrac{D_2}{D} = \dfrac{-124}{-62} = 2 \\
+& \\
+x_3 &= \dfrac{D_3}{D} = \dfrac{-186}{-62} = 3
+\end{aligned}
+$$
+
+---
+
+## Complexidade computacional da regra de Cramer
+Seja $D_k$: nº de operações para calcular o determinante $|A_k|$ pelo método dos cofatores
+
+- $D_1 = 1$
+	
+- $D_2 = 2 \cdot D_1 = 2 \cdot 1=2!$
+	
+- $D_3 = 3 \cdot D_2 = 3 \cdot 2! = 3!$
+	
+- $D_4 = 4 D_3 = 4 \cdot 3! = 4!$
+	
+- $\quad \vdots$
+	
+- $D_k =  k! = \mathcal{O}(k!)$
+
+Se $C_k$: Custo computacional para resolver o sistema $A_k x =b$
+
+- $C_k$: custo igual ao calculo de $k+1$ determinantes de ordem $k$
+	
+- $C_k = (k+1) \cdot D_k$
+	
+- $C_k = (k+1) \cdot k! = (k+1)! $
+	
+- $\boxed{C_k = \mathcal{O} \left( (k+1)! \right)} $
+
+Assim,
+
+- $C_{10} = 11! = 39916800 \approx 4 \cdot 10^7$ 
+	
+- $C_{20} = 21! = 51090942171709440000 \approx 5 \cdot 10^{19}$ 
+	
+- $C_{30} = 31! = 8222838654177922817725562880000000 \approx 8 \cdot 10^{33}$ 
+	
+- $C_{40} = 41!  \approx 3 \cdot 10^{49}$ 
+	
+- $C_{50} = 51!  \approx 1 \cdot 10^{66}$ 
+
+Considerando que **1 Gigaflops** = $10^9$ operações por segundo, o tempo para calcular um sistema algébrico com $n$ desconhecidas é:
+
+- Se $n=10$:
+
+$$
+C_{10} \approx \dfrac{4 \cdot 10^7}{10^9} \approx 4 \cdot 10^{-2} \text{ segundos}
+$$
+
+- Se $n=20$:
+
+$$
+C_{20} \approx 	\dfrac{5 \cdot 10^{19}}{10^9} \approx 5 \cdot 10^{10} \text{ segundos} \approx 1585 \text{ anos}
+$$
+
+- Se $n=30$:
+
+$$
+C_{30} \approx 	\dfrac{8 \cdot 10^{33}}{10^9} \approx 8 \cdot 10^{24} \text{ segundos} \approx 2,5 \cdot 10^{17} \text{ anos}
+$$
+	
+- Se $n=40$:
+
+$$
+C_{40} \approx \dfrac{3 \cdot 10^{49}}{10^9} \approx 3 \cdot 10^{40} \text{ segundos} \approx 9,5 \cdot 10^{32} \text{ anos}
+$$
+
+- Se $n=50$:
+  
+$$
+C_{50} \approx \dfrac{ 10^{66}}{10^9} \approx  10^{57} \text{ segundos} \approx 3 \cdot 10^{49} \text{ anos}
+$$
+
+---
+
+<b>Observação</b>
+
+- O MÉTODO DE CRAMER É INEFICIENTE PARA RESOLVER SISTEMAS ALGÉBRICOS LINEARES
+		
+- SÃO NECESSÁRIOS MÉTODOS MAIS EFICIENTES
+
+
+
