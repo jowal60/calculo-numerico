@@ -29,3 +29,8 @@ just_the_docs:
     sistemas-lineares:
       name: "Sistemas Lineares"
   math: true
+
+# Configuração do renderizador de Markdown para suporte ao MathJax
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
