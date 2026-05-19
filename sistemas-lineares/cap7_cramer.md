@@ -53,3 +53,50 @@ b_2 \\
 b_n
 \end{bmatrix}
 $$
+
+---
+
+\section{Regra de Cramer}
+A solução do sistema $Ax=b$ é dada pela \textbf{Regra de Cramer}:
+
+$$
+x_k = \dfrac{D_k}{D}, \quad k=1,2,\cdots,n
+$$
+
+onde,
+
+$$
+D_k = 	\begin{vmatrix}
+	a_{11} & \cdots & a_{1,k-1} 
+	& \boxed{b_1} & a_{1,k+1} & \cdots
+	& a_{1n}
+	\\
+	a_{21}      & \cdots & a_{2,k-1} 
+	&\boxed{ b_2} & a_{2,k+1} & \cdots
+	& a_{2n} \\
+	\vdots & & \vdots &  \vdots & \vdots & & \vdots
+	\\
+	a_{n1} & \cdots & a_{n,k-1} 
+	& \boxed{b_n} & a_{n,k+1} & \cdots
+	& a_{nn}
+\end{vmatrix}
+$$
+
+e
+
+$$
+D = 	\begin{vmatrix}
+	a_{11} & \cdots & a_{1,k-1}
+	& a_{1k} & a_{1,k+1} & \cdots
+	& a_{1n}
+	\\
+	a_{21} & \cdots & a_{2,k-1} 
+	& a_{2k} & a_{2,k+1} & \cdots
+	& a_{2n} \\
+	\vdots & & \vdots &  \vdots & \vdots & & \vdots
+	\\
+	a_{n1} & \cdots & a_{n,k-1}
+	& a_{nk} & a_{n,k+1} & \cdots
+	& a_{nn}
+\end{vmatrix}
+$$
