@@ -2,6 +2,8 @@ title: "Cálculo Numérico"
 description: "Notas de aula — Dr. José Walter Cárdenas Sotil"
 
 remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
 
 url: "https://jowal60.github.io"
 baseurl: "/calculo-numerico"
