@@ -1,6 +1,6 @@
 ---
 title: "Regra de Cramer"
-layout: custom
+layout: default
 parent: "Sistemas Lineares"
 nav_order: 1
 ---
