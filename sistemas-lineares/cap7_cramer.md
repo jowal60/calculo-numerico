@@ -30,6 +30,7 @@ $\qquad a_{n1} x_1 + a_{n2} x_2 + a_{n3} x_3 + \cdots + a_{nn} x_n = b_n$
 
 Na forma matricial o sistema é escrito como:
 
+{% raw %}
 $$
 \begin{bmatrix}
 a_{11} & a_{12} & \cdots & a_{1n} \\
@@ -50,5 +51,6 @@ b_2 \\
 b_n
 \end{bmatrix} 
 $$
+{% endraw %}
 
 
