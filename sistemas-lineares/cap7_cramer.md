@@ -21,13 +21,13 @@ onde:
 Temos o sistema algébrico linear com $n$ equações e $n$ desconhecidas $x_1, x_2, \dots, x_n$:
 
 $$
-\begin{array}{c}
+\begin{bmatrix}
 a_{11} x_1 + a_{12} x_2 + a_{13} x_3 + \dots + a_{1n} x_n = b_1 \\
 a_{21} x_1 + a_{22} x_2 + a_{23} x_3 + \dots + a_{2n} x_n = b_2 \\
 a_{31} x_1 + a_{32} x_2 + a_{33} x_3 + \dots + a_{3n} x_n = b_3 \\
 \vdots \\
 a_{n1} x_1 + a_{n2} x_2 + a_{n3} x_3 + \dots + a_{nn} x_n = b_n
-\end{array}
+\end{bmatrix}
 $$
 
 Na forma matricial o sistema é escrito como:
@@ -44,8 +44,7 @@ x_1 \\
 x_2 \\
 \vdots \\
 x_n
-\end{bmatrix}
-=
+\end{bmatrix} =
 \begin{bmatrix}
 b_1 \\
 b_2 \\
@@ -56,9 +55,8 @@ $$
 
 ---
 
-\section{Regra de Cramer}
-A solução do sistema $Ax=b$ é dada pela \textbf{Regra de Cramer}:
-
+## Regra de Cramer
+A solução do sistema $Ax=b$ é dada pela **Regra de Cramer**:
 $$
 x_k = \dfrac{D_k}{D}, \quad k=1,2,\cdots,n
 $$
