@@ -98,3 +98,62 @@ D = 	\begin{vmatrix}
 	& a_{nn}
 \end{vmatrix}
 $$
+
+---
+
+<b>Exemplo</b>
+
+Resolver:
+
+$$
+\begin{matrix}
+		3 x_1 + 2 x_2 &=  \ 12 \\
+		2 x_1 - 3 x_2 &= -5
+	\end{matrix}
+$$
+
+<b>Solução</b>
+
+$$
+D_1 = 
+\begin{vmatrix}
+12 & 2 \\
+-5 & -3
+\end{vmatrix} 
+= -36+10 = -26
+$$
+
+$$
+D_2  = 
+\begin{vmatrix}
+3 & 12 \\
+2 & -5
+\end{vmatrix}
+= -15 -24 = -39
+$$
+
+$$
+D = 
+\begin{vmatrix}
+3 & 2 \\
+2 & -3
+\end{vmatrix}
+= -9-4 = -13
+$$
+	
+logo,
+
+$$
+\begin{matrix}
+x_1 &= \dfrac{D_1}{D} = \dfrac{-26}{-13} = 2 \\
+& \\
+x_2 &= \dfrac{D_2}{D} = \dfrac{-39}{-13} = 3
+\end{matrix}
+$$
+
+---
+
+<b>Exemplo</b>
+
+
+
