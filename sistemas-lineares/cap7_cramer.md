@@ -155,5 +155,12 @@ $$
 
 <b>Exemplo</b>
 
+Resolver usando o método de Cramer:
 
-
+$$
+\begin{matrix}
+2 x_1 + 3 x_2 - 2 x_3  &= 4 \\
+3 x_1 - 4 x_2 + x_3    &= 1  \\
+-x_1 + 2 x_2 + 3 x_3  &= 11
+\end{matrix}	
+$$
