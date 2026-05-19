@@ -13,7 +13,9 @@ $$Ax = b$$
 
 onde:
 * \(A\) é uma matriz de coeficientes de ordem $n$,
+  
 * $x$ é um vetor das desconhecidas de ordem $n$, e
+  
 * $b$ é um vetor de dados de ordem $n$.
 
 Temos o sistema algébrico linear com $n$ equações e $n$ desconhecidas $x_1, x_2, \dots, x_n$:
