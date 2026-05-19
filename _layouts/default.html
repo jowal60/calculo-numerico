@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-    {% include head_custom.html %}
-  </head>
-  <body>
-    {{ content }}
-  </body>
-</html>
+{% include head_custom.html %}
+
+{{ content }}
