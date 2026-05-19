@@ -94,3 +94,58 @@ $$
 \boxed{x_{i} = ( b_{i} -a_{i,i+1} x_{i+1} - \cdots - a_{i,n} x_n  ) / a_{i,i}}
 $$
 
+---
+
+<b>Teorema</b> (Condição de existência)
+
+O sistema triangular superior $Ax=b$ admite solução se, e somente se,
+
+$$
+a_{ii} \neq 0, \quad \forall \ i=1, \cdots, n
+$$		
+
+---
+
+<B>Custo computacional</b>
+
+- $x_n = b_n/a_{nn}$ : 1 operação
+	
+- $x_{n-1} = (b_{n-1}- a_{n-1,n} x_n) / a_{n-1,n-1}$: 2 operações
+	
+- $\vdots$
+	
+- $x_{1} = ( b_{1} -a_{12} x_2 - \cdots -a_{1n} x_n) / a_{11}$ : n operações
+
+O custo computacional total de resolver o sistema triangular superior, é:
+
+$$
+\boxed{	1+2+3 + \cdots +n  =  \ \dfrac{n \cdot (n+1)}{2} =  \ \mathcal{O}(n^2)}
+$$
+
+---
+
+<b>Eemplo</b>
+
+Resolver o sistema:
+
+$$
+\begin{aligned}
+\ x_1 + x_2 + x_3 &= -2 \\
+\quad -x_2 - 3x_3 &= \ \ 5\\
+\qquad \qquad 8x_3 &= -8
+\end{aligned}
+$$
+
+<b>Solução</b>
+
+$8 x_3 = -8 \Longrightarrow x_3 = \dfrac{-8}{8} \Longrightarrow \boxed{x_3  = -1}$
+
+$-x_2 -3 x_3 = 5 \Longrightarrow -x_2 -3 \cdot (-1) = 5 \Longrightarrow x_2 = ( 5 -3) / (-1) \Longrightarrow \boxed{x_2 = -2}$
+
+$x_1 + x_2 + x_3 = -2 \Longrightarrow x_1 + (-2) + (-1) = -2  \Longrightarrow x_1 = (-2 +2+1)/1 \Longrightarrow \boxed{x_1 = 1}$
+
+---
+
+## Sistema triangular inferior
+
+
